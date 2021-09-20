@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website\n",
+      "author": [],
+      "contents": "\nHello, my name is Cassian Hu. I am not even 3 months old.\nTry this code\n\n\n\n",
+      "last_modified": "2021-09-20T15:14:48-04:00"
+    },
+    {
+      "path": "cv.html",
+      "title": "Resources",
+      "description": "Links for resources to learn code\n",
+      "author": [],
+      "contents": "\nHere is my CV:\n\n\n\n",
+      "last_modified": "2021-09-20T15:14:48-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "",
+      "author": [],
+      "contents": "\n\n          \n          \n          Sarah K. Hu\n          \n          \n          home\n          \n          \n          About\n           \n          ▾\n          \n          \n          about me\n          cv\n          \n          \n          Resources\n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              \n            \n            \n              \n                \n                    \n                      \n                        Scholar\n                      \n                    \n                  \n                                    \n                    \n                      \n                        GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Twitter\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            \n            Bio\n            Sigríður Björndotter is a musician, vocalist, and live entertainment consultant living in Buenos Aires, Argentina. Her writing has appeared in Rolling Stone, Billboard, and NME, and she is a frequent contributor to National Public Radio’s All Songs Considered. She has been raising Pembroke Welsh Corgis since the age of six, and she has collected Casio watches since the age of ten.\n            \n            \n            Education\n            INSEAD | Fontainebleau, France\n            M.B.A. | August 2014 - June 2015\n            The Juilliard School | New York, NY\n            B.F.A. in Music Performance | August 2005 - May 2009\n            \n            \n            Experience\n            Freelance | Live Entertainment Consultant | August 2018 - Present\n            Cercle | Producer | August 2018 - Present\n            National Public Radio | Producer | May 2015 - July 2018\n            NME Magazine | Editor | July 2014 - July 2016\n            Iceland Symphony Orchestra | Cellist | October 2009 - June 2014\n            \n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              \n            \n            \n              \n                \n                                    \n                    \n                      Scholar\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                    \n                    \n                      Twitter\n                    \n                  \n                                  \n              \n            \n            \n              \n              Bio\n              Sigríður Björndotter is a musician, vocalist, and live entertainment consultant living in Buenos Aires, Argentina. Her writing has appeared in Rolling Stone, Billboard, and NME, and she is a frequent contributor to National Public Radio’s All Songs Considered. She has been raising Pembroke Welsh Corgis since the age of six, and she has collected Casio watches since the age of ten.\n              \n              \n              Education\n              INSEAD | Fontainebleau, France\n              M.B.A. | August 2014 - June 2015\n              The Juilliard School | New York, NY\n              B.F.A. in Music Performance | August 2005 - May 2009\n              \n              \n              Experience\n              Freelance | Live Entertainment Consultant | August 2018 - Present\n              Cercle | Producer | August 2018 - Present\n              National Public Radio | Producer | May 2015 - July 2018\n              NME Magazine | Editor | July 2014 - July 2016\n              Iceland Symphony Orchestra | Cellist | October 2009 - June 2014\n              \n            \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-09-20T15:14:48-04:00"
+    },
+    {
+      "path": "resources.html",
+      "title": "Resources",
+      "description": "Links for resources to learn code\n",
+      "author": [],
+      "contents": "\nHello, my name is Cassian Hu. I am not even 3 months old.\nI am going to learn so much coding!\n\n\n\n",
+      "last_modified": "2021-09-20T15:14:49-04:00"
+    }
+  ],
+  "collections": []
+}

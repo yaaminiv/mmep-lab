@@ -1,0 +1,16 @@
+---
+title: "Resources"
+description: |
+  Links for resources to learn code
+output: 
+  distill::distill_article:
+    css: theme.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Hello, my name is Cassian Hu. I am not even 3 months old. 
+
+I am going to learn so much coding!
