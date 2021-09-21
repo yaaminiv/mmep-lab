@@ -2129,8 +2129,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   html {
     /*-- Main font sizes --*/
-    --title-size:      50px;
-    --body-size:       1.06rem;
+    --title-size:      20px;
+    --body-size:       16px;
     --code-size:       14px;
     --aside-size:      12px;
     --fig-cap-size:    13px;
@@ -2157,9 +2157,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /*-- ARTICLE TABLE OF CONTENTS --*/
   .d-contents {
-    --heading-size:    18px;
+    --heading-size:    16px;
     --heading-color:   #dfa837;
-    --contents-size:   13px;
+    --contents-size:   14px;
     --text-color:      #b63e36;
   }
 
@@ -2175,10 +2175,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* These properties only apply to Distill sites and blogs  */
 
   .distill-site-header {
-    --title-size:       30px;
-    --text-color:       #dfa837;
+    --title-size:       35px;
+    --text-color:       #bdbdbd;
     --text-size:        25px;
-    --hover-color:      #383867;
+    --hover-color:      #93b778;
     --bkgd-color:       #6c6d94;
   }
 
@@ -2191,6 +2191,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
+  /* Change bullets */
+  ul > li::marker {
+    font-size: 1.125em;
+    color: #b63e36;
+  }
+
+  /* Change link appearance */
+  d-article a {
+    border-bottom: 2px solid #dfa837;
+    text-decoration: none;
+  }
   </style>
   <style type="text/css">
   /* base style */
