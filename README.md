@@ -13,3 +13,6 @@ overview of files:
 * ```_site.yml```: information for complete site navigation
 * ```filename.Rmd```: page files for each page of the website, edit and use Rmarkdown to construct content here. When done, make sure a link to this page is available with ending .html. To render, click 'Build Website' in the build tab of RStudio, and each of these Rmd files will be knit to make a .html file.
 * ```theme.css```: theme information for whole website design. See theme CSS online to modify distill websites. 
+
+
+Website link: https://shu251.github.io/sarah-hu/
