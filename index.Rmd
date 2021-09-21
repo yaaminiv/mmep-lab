@@ -11,6 +11,7 @@ links:
 site: distill::distill_website
 output:
   postcards::trestles
+  css: theme.css
 ---
 
 ### Sarah Hu (she/her)
@@ -25,7 +26,7 @@ I am a microbial ecologist & biological oceanographer. I am excited about the el
 
 ### professional experience
 
-**Postdoctoral Investigator** | Woods Hole Oceanographic Institution | 2018 - Present
+**Postdoc** | Woods Hole Oceanographic Institution | 2018 - Present
 
 Explore food webs at deep-sea hydrothermal habitats in the [Huber lab](https://www2.whoi.edu/staff/jhuber/projects/), specifically focusing on the role of unicellular eukaryotes. 
 
