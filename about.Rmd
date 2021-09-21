@@ -10,6 +10,4 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Hello, my name is Cassian Hu. I am not even 3 months old. 
-
-Try this code
+## 

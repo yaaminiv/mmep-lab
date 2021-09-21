@@ -11,6 +11,16 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Hello, my name is Cassian Hu. I am not even 3 months old. 
+# Meta'omics
 
-I am going to learn so much coding!
+* [Code](https://github.com/shu251/SPOT_metatranscriptome) from [a metatranscriptomic survey of protistan trophic strategies](https://onlinelibrary.wiley.com/doi/abs/10.1111/1462-2920.14259)
+  + [EukZoo](https://zenodo.org/record/1476236#.XRdsuC2ZNTY) database, an aquatic protistan protein database for meta-omics studies
+
+# Amplicon sequence analysis
+
+* I am currently working on streamlined pipelines to determine Amplicon Sequence Variants (ASVs) or Operational Taxonomic Units (OTUs) using **QIIME2** or **DADA2** in R for use in environmental microbial ecology.
+
+# Data management
+
+* [Keeping my R life organized](https://alexanderlabwhoi.github.io/post/anaconda-r-sarah/) details how I set up R with anaconda on my computer. Introduction to managing projects with conda environments. Includes description of R, RStudio, and IRKernel (jupyter notebooks).
+

@@ -9,11 +9,9 @@ output:
     toc_depth: 3
     toc_float: true
 ---
-
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 ```
-
 
 # _pending_
 

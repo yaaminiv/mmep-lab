@@ -1,0 +1,39 @@
+---
+title: "packages"
+description:
+output: 
+  distill::distill_article:
+    css: theme.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
+```
+
+```{r out.width ="60%", echo=FALSE}
+knitr::include_graphics("images/knob1.png")
+```
+# Woods Hole color palette
+Download color palettes inspired by Cape Cod and Woods Hole area. Includes docks, sunsets, WHOI logo, and RV Atlantis.
+[github](https://github.com/shu251/PaletteWoodsHole)
+
+***
+
+`r emo::ji("workout")` `r emo::ji("winner")` `r emo::ji("weight")`
+
+# ExeRcise
+Generate a randomized custom workout. Inspired by High Intensity Interval training workouts, user defines warm up and workout interval length and total number of exercises. Additional functions to run workout with a timer in R and a tabata-style workout.
+[github](https://github.com/shu251/exRcise) 
+
+***
+
+`r emo::ji("science")` `r emo::ji("microbe")` `r emo::ji("microscope")`
+
+# Lab work
+Built _for personal use only_. List of functions to streamline molecular bench work and common math required in preparing genetic material for sequencing. e.g., PCR master mix calculation, CV=CV, and RNA quantification preparation steps. [github repo](https://github.com/shu251/lab)
+
+***
+```{r out.width="60%", echo=FALSE}
+knitr::include_graphics("images/knob.jpg")
+```
+_the Knob in Woods Hole, MA_

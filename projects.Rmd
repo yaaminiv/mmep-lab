@@ -1,7 +1,7 @@
 ---
 title: "research projects"
 description: |
-  Current & on-going research projects
+  current & on-going research projects
 output: 
   distill::distill_article:
     css: theme.css
@@ -11,24 +11,108 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 ```
+
+# Protists
+Single-celled microbial eukaryotes _or protists_ are critical team players in most ecosystems on our planet. Protistan communities are composed of hundreds to thousands of species. The species composition of protistan communities can serve as a sentinel of the surrounding environment.
+
+```{r, echo=FALSE}
+
+knitr::include_graphics("images/Screen Shot 2021-09-21 at 12.38.40 PM.png")
+
+# knitr::include_graphics(c("images/00_Acantharia.png", "images/00_Trimyema.pdng", "images/00_Ehux.png", "images/00_Pseudonana.png"))
+
+# cowplot::ggdraw() +
+  # draw_image("images/00_Acantharia.png", width = 0.5) +
+  # draw_image("images/00_Trimyema.png")
+  
+```
+## Ecological role
+Protistan species make up the majority of the branches on the eukaryotic tree of life. Similar to their vast and complex morphological ( _e.g._, skeletal structure, modes of mobility, and size), the nutritional strategies (or feeding methods) protists are capable of are diverse and complicated. The three core _trophic modes_ include **phototrophy**, **heterotrophy**, and **mixotrophy**. These trophic strategies place protists at the center of marine food webs -- meaning, they mediate or facilitate central routes of energy and nutrient flux. Hence, protists play several key ecological roles at the base of marine food webs. 
+
+## Research initiative
+From coastal environments to deep-sea habitats, protistan community structure (diversity and composition of species) and nutritional strategies are reflections of their environment. While protists form a central theme in my work, my goal is to make sense of how microorganisms fuel and facilitate the processes sustaining our planet. Through the study of microbial eukaryotes, we learn how diverse nutritional strategies of protists are tied to season, time of day, and availability of resources. My main goal is to understand how protistan communities interact with other microorganisms and their environment to support marine ecosystems.
+
+***
+```{r, fig.height=1.5, fig.width=8, echo=FALSE}
+ggplot2::ggplot(x = 1, y = 2) + ggplot2::theme_void() + ggplot2::theme(plot.background = ggplot2::element_rect(fill = "#ce536b", colour = NA))
+```
+
 
 # Deep-sea hydrothermal vents
 
-Heterotrophic protists are ubiquitous in all aquatic ecosystems and represent an important ecological link by transferring organic carbon from primary producers to higher trophic levels. However, efforts to quantify protistan grazing pressure in the deep sea are rare. We quantified the predator-prey trophic interactions among protistan grazers and microbial prey at multiple sites of hydrothermal venting near the mid-ocean spreading center, Gorda Ridge, in the NE Pacific Ocean. A diverse assemblages of protistan species, determined from a genetic survey, was found to place greater predation pressure on the hydrothermal vent microbial population, relative to the surrounded seawater. This pattern was attributed to the higher concentration of chemosynthetic microorganisms and biological diversity localized to the hydrothermal vent environment.
+```{r out.width ="40%", echo=FALSE, fig.cap="Mid-Cayman Rise Credit WHOI"}
+knitr::include_graphics("images/IMG_3510-Edit-Edit.jpg")
+```
+
+Highly reduced and thermally charged venting fluids from the subseafloor mix with surrounding seawater, creating a sharp geochemical gradient which promotes a hub of biological diversity at the site of venting fluid. Studies of the bacterial and archaeal chemosynthetic populations at hydrothermal vent sites have highlighted the important roles these microorganisms play in deep-sea carbon cycling and offered a unique window into subseafloor microbiology. To date, studies of deep-sea food webs and ecological interactions do not typically cover the microbial eukaryotic assemblages.
+
+Heterotrophic protists are ubiquitous in all aquatic ecosystems and represent an important ecological link by transferring organic carbon from primary producers to higher trophic levels. Previous work has shown protists to be present and active at deep-sea hydrothermal vents and efforts to characterize the composition of these populations has revealed many species to be heterotrophic grazers and parasites. However, efforts to quantify protistan grazing pressure in the deep sea are rare. 
+
+```{r out.width ="5%", echo=FALSE, fig.cap="Simplified food web"}
+knitr::include_graphics("images/foodweb-map-simple.png")
+```
+
+Supported by the [Center for Dark Energy Biosphere Investigations STC](https://www.darkenergybiosphere.org/), I joined [Dr. Julie Huber's lab](https://www2.whoi.edu/staff/jhuber/projects/) at [WHOI](https://www.whoi.edu/). Since 2018, I have been involved in several expeditions to hydrothermal vents (see below) to address these main questions:
+
+> What is the role of protists in deep-sea hydrothermal vent food web ecology? 
+
+> How does protistan diversity, distribution, and activity influence carbon flux in the deep sea?
+
+```{r out.width ="20%", echo=FALSE}
+knitr::include_graphics("images/cdebi-logo.png")
+```
 
 ## Axial Seamount
+We are currently planning work at Axial Seamount (NE Pacific Ocean) as part of an [NSF-funded proposal](https://nsf.gov/awardsearch/showAward?AWD_ID=1947776&HistoricalAwards=false) to characterize the rate and route of carbon via phagotrophic protists.
 
+### Upcoming expedition
+
+_Deferred due to COVID 19_ 
+
+```{r out.width ="60%", echo=FALSE}
+knitr::include_graphics("images/jason-van.jpg")
+```
 ## Mid-Cayman Rise
+
+
+```{r out.width ="60%", echo=FALSE}
+knitr::include_graphics("images/jason-sarah.png")
+```
+
+```{r out.width ="60%", echo=FALSE}
+knitr::include_graphics("images/J2-618-IGT1 - Beebe Woods.jpg")
+```
+### 2020 Expedition
 
 ## Gorda Ridge
 
+
+### 2019 Expedition
+
+```{r, fig.height=1.5, fig.width=8, echo=FALSE}
+ggplot2::ggplot(x = 1, y = 2) + ggplot2::theme_void() + ggplot2::theme(plot.background = ggplot2::element_rect(fill = "#b63e36", colour = NA))
+```
 
 # Time-series
 
 The diversity of microbial eukaryotic trophic strategies makes them key players in marine food webs. Protists are single-celled microbial eukaryotes that play numerous ecological roles at the epicenter of marine food webs as primary producers, consumers, mixotrophs (mixed phototrophic and heterotrophic nutrition), and as partners in various mutualistic or parasitic associations. Within the diverse array of eukaryotic species, protist functional groups that exhibit heterotrophic nutrition or combined phototrophic and heterotrophic nutrition (mixotrophy) have been especially overlooked, especially from in situ studies.
 
+## SPOT
+
+
+## HOT
+
+```{r, fig.height=1.5, fig.width=8, echo=FALSE}
+ggplot2::ggplot(x = 1, y = 2) + ggplot2::theme_void() + ggplot2::theme(plot.background = ggplot2::element_rect(fill = "#93b778", colour = NA))
+```
+
 # Data science
 
 Despite their ecological importance, efforts to catalog protistan physiological abilities and trophic strategies lag behind those of their prokaryotic counterparts.
+
+## Reproducible pipelines
+
+
+## Bioinformatic tools

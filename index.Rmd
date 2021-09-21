@@ -13,17 +13,17 @@ output:
   postcards::trestles
 ---
 
-### Sarah Hu (she/her)
+# Sarah Hu (she/her)
 
 I am a microbial ecologist & biological oceanographer. I am excited about the elaborate & indispensable ecological roles single-celled microbial eukaryotes play in the environment. Raised in Southern California, but currently trying New England.
 
-### education
+## education
 
 **PhD 2018** | University of Southern California | Los Angeles, CA
 
 **BS 2011** | University of Washington | Seattle, WA
 
-### professional experience
+## professional experience
 
 **Postdoc** | Woods Hole Oceanographic Institution | 2018 - Present
 
