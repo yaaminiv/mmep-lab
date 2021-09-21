@@ -7,7 +7,24 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 ```
 
-## 
+## contact
+
+sarah.hu [at] whoi.edu
+
+
+## follow
+
+[shu251](https://twitter.com/shu251)
+
+
+```{r out.width ="30%", echo=FALSE}
+knitr::include_graphics("images/profile-slack-shu.jpg")
+```
+
+
+```{r, fig.height=1, fig.width=8, echo=FALSE}
+ggplot2::ggplot(x = 1, y = 2) + ggplot2::theme_void() + ggplot2::theme(plot.background = ggplot2::element_rect(fill = "#ce536b", colour = NA))
+```
