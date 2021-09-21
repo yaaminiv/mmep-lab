@@ -1,5 +1,5 @@
 ---
-title: "projects"
+title: "research projects"
 description: |
   Current & on-going research projects
 output: 

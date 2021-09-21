@@ -15,12 +15,8 @@ navbar:
       menu:
         - text: "about me"
           href: about.html
-        #- text: "teaching"
-        #  href:
-        - talks: "talks"
+        - text: "talks"
           href: talks.html
-        #- text: "data science"
-        #  href: 
         - text: "cv"
           href: cv.html
     - text: "R"
