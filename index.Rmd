@@ -2,43 +2,33 @@
 title: ""
 image: "images/profile.jpg"
 links:
-  - label: Scholar
+  - label: scholar
     url: "https://scholar.google.com/citations?user=9CI91CMAAAAJ&hl=en"
-  - label: GitHub
+  - label: github
     url: "https://github.com/shu251"
-  - label: Twitter
+  - label: twitter
     url: "https://twitter.com/shu251"
 site: distill::distill_website
 output:
   postcards::trestles
 ---
 
-## Bio
+### Sarah Hu (she/her)
 
-Sigríður Björndotter is a musician, vocalist, and live entertainment consultant
-living in Buenos Aires, Argentina. Her writing has appeared in Rolling Stone,
-Billboard, and NME, and she is a frequent contributor to National Public Radio's 
-*All Songs Considered*. She has been raising Pembroke Welsh Corgis since the age
-of six, and she has collected Casio watches since the age of ten.
+I am a microbial ecologist & biological oceanographer. I am excited about the elaborate & indispensable ecological roles single-celled microbial eukaryotes play in the environment. Raised in Southern California, but currently trying New England.
 
-## Education
+### education
 
-**INSEAD** | Fontainebleau, France
+**PhD 2018** | University of Southern California | Los Angeles, CA
 
-M.B.A. | August 2014 - June 2015
+**BS 2011** | University of Washington | Seattle, WA
 
-**The Juilliard School** | New York, NY
+### professional experience
 
-B.F.A. in Music Performance | August 2005 - May 2009
+**Postdoctoral Investigator** | Woods Hole Oceanographic Institution | 2018 - Present
 
-## Experience
+Explore food webs at deep-sea hydrothermal habitats in the [Huber lab](https://www2.whoi.edu/staff/jhuber/projects/), specifically focusing on the role of unicellular eukaryotes. 
 
-**Freelance** | Live Entertainment Consultant | August 2018 - Present
+**PhD** | University of Southern California | 2012 - 2018
 
-**Cercle** | Producer | August 2018 - Present
-
-**National Public Radio** | Producer | May 2015 - July 2018
-
-**NME Magazine** | Editor | July 2014 - July 2016
-
-**Iceland Symphony Orchestra** | Cellist | October 2009 - June 2014
+Genetic characterization of microbial eukaryotic diversity and metabolic potential in the Caron lab at USC.

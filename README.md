@@ -6,7 +6,7 @@ _Instructions in Rmarkdown_
 3. open new Rstudio project (the newly cloned github repo), select Distill website and configure for Github pages.
 4. Distill in R instructions: https://rstudio.github.io/distill/website.html
 5. in R Studio, create a file using the command:
-> file.create(".nojekll")
+> file.create(".nojekyll")
 6. Commit all changes to github repo, go to settings and enable GitHub Pages, and select source ```/docs```
 
 overview of files:

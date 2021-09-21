@@ -7,13 +7,29 @@ navbar:
   right:
     - text: "home"
       href: index.html
-    - text: "About"
+    - text: "research"
+      href: projects.html
+    - text: "publications"
+      href: publications.html
+    - text: "about"
       menu:
         - text: "about me"
           href: about.html
+        #- text: "teaching"
+        #  href:
+        - talks: "talks"
+          href: talks.html
+        #- text: "data science"
+        #  href: 
         - text: "cv"
           href: cv.html
-    - text: "Resources"
-      href: resources.html
+    - text: "R"
+      menu:
+        - text: "resources"
+          href: resources.html
+        - text: "packages"
+          href: r-packages.html
+        - text: "learn R"
+          href: r-learn.html
 output: distill::distill_article
 theme: theme.css
