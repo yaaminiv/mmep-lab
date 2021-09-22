@@ -42,7 +42,7 @@ ggplot2::ggplot(x = 1, y = 2) + ggplot2::theme_void() + ggplot2::theme(plot.back
 
 # Deep-sea hydrothermal vents
 
-```{r out.width ="40%", echo=FALSE, fig.cap="Mid-Cayman Rise Credit WHOI"}
+```{r out.width ="40%", echo=FALSE, fig.cap="Mid-Cayman Rise. Credit: WHOI"}
 knitr::include_graphics("images/IMG_3510-Edit-Edit.jpg")
 ```
 
@@ -50,7 +50,7 @@ Highly reduced and thermally charged venting fluids from the subseafloor mix wit
 
 Heterotrophic protists are ubiquitous in all aquatic ecosystems and represent an important ecological link by transferring organic carbon from primary producers to higher trophic levels. Previous work has shown protists to be present and active at deep-sea hydrothermal vents and efforts to characterize the composition of these populations has revealed many species to be heterotrophic grazers and parasites. However, efforts to quantify protistan grazing pressure in the deep sea are rare. 
 
-```{r out.width ="5%", echo=FALSE, fig.cap="Simplified food web"}
+```{r out.height="5%", echo=FALSE, fig.cap="Simplified food web"}
 knitr::include_graphics("images/foodweb-map-simple.png")
 ```
 
@@ -71,25 +71,46 @@ We are currently planning work at Axial Seamount (NE Pacific Ocean) as part of a
 
 _Deferred due to COVID 19_ 
 
-```{r out.width ="60%", echo=FALSE}
+***
+```{r out.width ="50%", echo=FALSE, fig.cap="Jason van on the RV Atlantis"}
 knitr::include_graphics("images/jason-van.jpg")
 ```
 ## Mid-Cayman Rise
 
 
-```{r out.width ="60%", echo=FALSE}
+
+```{r out.width ="40%", echo=FALSE, fig.cap="ROV Jason during the Mid-Cayman Rise cruise"}
 knitr::include_graphics("images/jason-sarah.png")
 ```
 
-```{r out.width ="60%", echo=FALSE}
+```{r out.width ="30%", echo=FALSE, fig.cap="Beebe Woods vent at Mid-Cayman Rise. Credit: WHOI"}
 knitr::include_graphics("images/J2-618-IGT1 - Beebe Woods.jpg")
 ```
 ### 2020 Expedition
 
+***
+
+```{r out.width ="80%", echo=FALSE}
+knitr::include_graphics("images/cam2_20190607132644_edited.jpg")
+```
 ## Gorda Ridge
 
 
+
+```{r out.width ="50%", echo=FALSE, fig.cap="In the ROV Hercules control van with Amy Smith."}
+knitr::include_graphics("images/Sarah-and-Amy-Controlvan-2.jpg")
+```
+
 ### 2019 Expedition
+
+
+```{r out.width ="40%", echo=FALSE, fig.cap="Sampling microcolonizer experiments on board the EV Nautilus."}
+knitr::include_graphics("images/IMG_4779.jpg")
+```
+
+```{r out.width ="60%", echo=FALSE, fig.cap="Mt Edwards vent site at Gorda Ridge with microcolonizer experiments."}
+knitr::include_graphics("images/mtedwards-cones.png")
+```
 
 ```{r, fig.height=1.5, fig.width=8, echo=FALSE}
 ggplot2::ggplot(x = 1, y = 2) + ggplot2::theme_void() + ggplot2::theme(plot.background = ggplot2::element_rect(fill = "#b63e36", colour = NA))
@@ -99,8 +120,17 @@ ggplot2::ggplot(x = 1, y = 2) + ggplot2::theme_void() + ggplot2::theme(plot.back
 
 The diversity of microbial eukaryotic trophic strategies makes them key players in marine food webs. Protists are single-celled microbial eukaryotes that play numerous ecological roles at the epicenter of marine food webs as primary producers, consumers, mixotrophs (mixed phototrophic and heterotrophic nutrition), and as partners in various mutualistic or parasitic associations. Within the diverse array of eukaryotic species, protist functional groups that exhibit heterotrophic nutrition or combined phototrophic and heterotrophic nutrition (mixotrophy) have been especially overlooked, especially from in situ studies.
 
+```{r out.width ="60%", echo=FALSE, fig.cap="SPOT cruise"}
+knitr::include_graphics("images/SPOT-fieldwork.png")
+```
+
 ## SPOT
 
+
+
+```{r out.width ="60%", echo=FALSE, fig.cap="HOT cruise"}
+knitr::include_graphics("images/IMG-4423.JPG")
+```
 
 ## HOT
 
