@@ -62,7 +62,7 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 * Connell, P.E., Campbell, V., Gellene, A.G., Hu, S.K., and Caron, D.A. (2017) Planktonic food web structure at a coastal time-series site: II. Spatiotemporal variability of microbial trophic activities. Deep Sea Res Part I Oceanogr Res Pap 121: 210–223.
 
 # 2016
-* Hu, S.K., Campbell, V., Connell, P., Gellene, A.G., Liu, Z., Terrado, R., and Caron, D.A. (2016) Protistan diversity and activity inferred from RNA and DNA at a coastal ocean site in the eastern North Pacific. FEMS Microbiol Ecol fiw050.
+* Hu, S.K., Campbell, V., Connell, P., Gellene, A.G., Liu, Z., Terrado, R., and Caron, D.A. (2016) Protistan diversity and activity inferred from RNA and DNA at a coastal ocean site in the eastern North Pacific. FEMS Microbiol Ecol fiw050. [link](https://academic.oup.com/femsec/article/92/4/fiw050/2197988)
 
 # 2015 
 * Hu, S.K., Liu, Z., Lie, A.A.Y., Countway, P.D., Kim, D.Y., Jones, A.C., et al. (2015) Estimating Protistan Diversity Using High-Throughput Sequencing. Journal of Eukaryotic Microbiology 62: 688–693.

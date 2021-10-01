@@ -50,7 +50,7 @@ Highly reduced and thermally charged venting fluids from the subseafloor mix wit
 
 Heterotrophic protists are ubiquitous in all aquatic ecosystems and represent an important ecological link by transferring organic carbon from primary producers to higher trophic levels. Previous work has shown protists to be present and active at deep-sea hydrothermal vents and efforts to characterize the composition of these populations has revealed many species to be heterotrophic grazers and parasites. However, efforts to quantify protistan grazing pressure in the deep sea are rare. 
 
-```{r out.height="5%", echo=FALSE, fig.cap="Simplified food web"}
+```{r out.height="3%", echo=FALSE, fig.cap="Simplified food web"}
 knitr::include_graphics("images/foodweb-map-simple.png")
 ```
 
@@ -64,8 +64,22 @@ Supported by the [Center for Dark Energy Biosphere Investigations STC](https://w
 knitr::include_graphics("images/cdebi-logo.png")
 ```
 
+## Accessing deep-sea food webs
+
+To assess microbial biodiversity, we rely on sequencing the DNA from microbial cells that are collected onto a filter. The genetic material is extracted and sequenced so we can gain a snapshot of the microbial community composition _(who is present?)_. These molecular approaches have been critical in gaining the knowledge we currently have on the microbial communities in deep-sea and difficult to range habitats. Actually getting to deep-sea habitats takes a lot of engineering and planning. Broadly, we can use remotely- or human-operated vehicles (ROVs and HOVs) from a ship. Often we have to run experiments on the ship once the ROV returns with hydrothermal vent fluid or have the ROV collect samples _in situ_.
+
+For this work, I run incubations with diffuse flow fluid collected via ROV to capture the grazing activity of heterotrophic protists. Consumption of microbial prey by protistan grazers (heterotrophs) is a key route of carbon exchange (the transfer of chemosynthetic microorganisms to higher trophic level), and these experiments allow us to obtain a grazing rate (cells consumed ml^-1 day ^day). In order to assess the level of grazing pressure by protists, I compare and contrast the grazing rates and community composisions of protistan assemblages within discharging vent fluid, the plume (hydrothermally-influenced environment above the vent site), and the background deep-sea water. 
+
+```{r out.width ="10%", echo=FALSE}
+knitr::include_graphics("images/vent-with-location.png")
+```
+
+In aquatic habitats, transition zones driven by changes in chemistry or nutrients can create biological 'hotspots' of microbial activity. Within the hydrothermal vent environment
+
 ## Axial Seamount
 We are currently planning work at Axial Seamount (NE Pacific Ocean) as part of an [NSF-funded proposal](https://nsf.gov/awardsearch/showAward?AWD_ID=1947776&HistoricalAwards=false) to characterize the rate and route of carbon via phagotrophic protists.
+
+Axial Seamount is an active submarine volcano on the Juan de Fuca Ridge in the NE Pacific Ocean, off the coast of Oregon. The microbiome of the low-temperature (<100C) diffuse vent sites in the region have been frequently studied and the vent field within the caldera include a range of distinct geochemistries. 
 
 ### Upcoming expedition
 
@@ -90,25 +104,25 @@ knitr::include_graphics("images/J2-618-IGT1 - Beebe Woods.jpg")
 
 ***
 
-```{r out.width ="80%", echo=FALSE}
+```{r out.width ="100%", echo=FALSE, fig.cap="ROV Hercules at newly discovered Apollo vent field. Credit: OET/Nautilus Live}
 knitr::include_graphics("images/cam2_20190607132644_edited.jpg")
 ```
 ## Gorda Ridge
 
 
 
-```{r out.width ="50%", echo=FALSE, fig.cap="In the ROV Hercules control van with Amy Smith."}
+```{r out.width ="30%", echo=FALSE, fig.cap="In the ROV Hercules control van with Amy Smith. Credit: OET/Nautilus Live"}
 knitr::include_graphics("images/Sarah-and-Amy-Controlvan-2.jpg")
 ```
 
 ### 2019 Expedition
 
 
-```{r out.width ="40%", echo=FALSE, fig.cap="Sampling microcolonizer experiments on board the EV Nautilus."}
+```{r out.width ="20%", echo=FALSE, fig.cap="Sampling microcolonizer experiments on board the EV Nautilus. Credit: OET/Nautilus Live"}
 knitr::include_graphics("images/IMG_4779.jpg")
 ```
 
-```{r out.width ="60%", echo=FALSE, fig.cap="Mt Edwards vent site at Gorda Ridge with microcolonizer experiments."}
+```{r out.width ="60%", echo=FALSE, fig.cap="Mt Edwards vent site at Gorda Ridge with microcolonizer experiments. Credit: OET/Nautilus Live"}
 knitr::include_graphics("images/mtedwards-cones.png")
 ```
 
@@ -120,15 +134,35 @@ ggplot2::ggplot(x = 1, y = 2) + ggplot2::theme_void() + ggplot2::theme(plot.back
 
 The diversity of microbial eukaryotic trophic strategies makes them key players in marine food webs. Protists are single-celled microbial eukaryotes that play numerous ecological roles at the epicenter of marine food webs as primary producers, consumers, mixotrophs (mixed phototrophic and heterotrophic nutrition), and as partners in various mutualistic or parasitic associations. Within the diverse array of eukaryotic species, protist functional groups that exhibit heterotrophic nutrition or combined phototrophic and heterotrophic nutrition (mixotrophy) have been especially overlooked, especially from in situ studies.
 
-```{r out.width ="60%", echo=FALSE, fig.cap="SPOT cruise"}
+```{r out.width ="40%", echo=FALSE, fig.cap="SPOT cruise"}
 knitr::include_graphics("images/SPOT-fieldwork.png")
 ```
 
-## SPOT
+## the SPOT station
+
+The *S*an *P*edro *O*cean *T*ime-series (SPOT) station is located about half way between the Port of Los Angeles and Santa Catalina Island. [SPOT](https://dornsife.usc.edu/spot/) is a part of the Wrigley Institute and University of Southern California, it is a long-term study site that has been visited, sampled, and studied monthly for over 15 years. As a PhD student, one of my main roles was sampling every month - which meant that in addition to contributing to a long-term sampling effort, I got to ask my own research questions that were scientifically and logistically support by this station. 
+
+Each month, we would conduct CTD casts to obtain oceanographic measurements from the water column surface to just above the bottom (~880 meters). Alongside CTD data, we would capture seawater at each site, including the surface, deep chlorophyll maximum, oxycline (~150 m), and hypoxic depth (~880 m). By collecting this seawater monthly, we have been able to capture seasonal and annual trends in the microbial community (i.e., species richness, relative abundances). 
+
+```{r out.width ="20%", echo=FALSE, fig.cap="Seasonal depth profiles from the SPOT station from Hu et al. 2016"}
+knitr::include_graphics("images/SPOT-vert-profile.png")
+```
+
+_Findings from the SPOT station_
+
+> The oxycline hosts increased microbial activity.
+
+Naturally-occurring transition zones, such as nutriclines or oxyclines (where oxygen dramatically decreases) attract microorganisms. As a result, there is typically an uptick in microbial species richness, abundance, and activity localized to these sites. Subsequently, microorganisms that consume other microbes (such as protistan heterotrophs) will also be draw to this environment with available prey.
+
+DNA-based observations of microbial eukaryotic populations had revealed that heterotrophic species where present throughout the water column and had a relative increase in the number of species at the oxycline. In a paper from [2016](https://academic.oup.com/femsec/article/92/4/fiw050/2197988), we used both RNA and DNA tag-sequencing analyses to (1) assess if there was a difference in using RNA and DNA in tag-sequence surveys and to (2) determine if this approach could be used to infer metabolic activity.
+
+To access the metabolically-active component of the protistan community at SPOT, we also [applied metatranscriptomics](https://sfamjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1462-2920.14259). After extracting total RNA from each depth at the SPOT station, we isolated and sequenced the messenger RNA. By matching mRNA sequences to reference transcriptome databases, we can annotate the taxonomic origin and gene identity (functional potential). In the case of the metabolically diverse protists, results from the metatranscriptome analysis brought us closer to simultaneously characterizing the trophic mode and taxonomic identity. At the oxycline, there was a distinct shift in the known heterotrophic taxa, such as ciliates - where a relative increase in transcripts related to fatty acid breakdown was observed. Similarly,  taxa known to be mixotrophic (e.g., haptophytes) had distinct transcript profiles in the euphotic and sub-euphotic zones. At the surface, transcripts associated with phototrophy were higher compared to transcripts associated with heterotrophic modes of nutrition at depths without sunlight. 
+
+> Dominant surface phytoplankton community compositions vary with respect to location and environment.
 
 
 
-```{r out.width ="60%", echo=FALSE, fig.cap="HOT cruise"}
+```{r out.width ="40%", echo=FALSE, fig.cap="HOT cruise"}
 knitr::include_graphics("images/IMG-4423.JPG")
 ```
 
