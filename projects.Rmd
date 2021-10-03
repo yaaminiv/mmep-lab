@@ -104,7 +104,7 @@ knitr::include_graphics("images/J2-618-IGT1 - Beebe Woods.jpg")
 
 ***
 
-```{r out.width ="100%", echo=FALSE, fig.cap="ROV Hercules at newly discovered Apollo vent field. Credit: OET/Nautilus Live}
+```{r out.width ="100%", echo=FALSE, fig.cap="ROV Hercules at newly discovered Apollo vent field. Credit: OET/Nautilus Live"}
 knitr::include_graphics("images/cam2_20190607132644_edited.jpg")
 ```
 ## Gorda Ridge
@@ -158,7 +158,9 @@ DNA-based observations of microbial eukaryotic populations had revealed that het
 
 To access the metabolically-active component of the protistan community at SPOT, we also [applied metatranscriptomics](https://sfamjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1462-2920.14259). After extracting total RNA from each depth at the SPOT station, we isolated and sequenced the messenger RNA. By matching mRNA sequences to reference transcriptome databases, we can annotate the taxonomic origin and gene identity (functional potential). In the case of the metabolically diverse protists, results from the metatranscriptome analysis brought us closer to simultaneously characterizing the trophic mode and taxonomic identity. At the oxycline, there was a distinct shift in the known heterotrophic taxa, such as ciliates - where a relative increase in transcripts related to fatty acid breakdown was observed. Similarly,  taxa known to be mixotrophic (e.g., haptophytes) had distinct transcript profiles in the euphotic and sub-euphotic zones. At the surface, transcripts associated with phototrophy were higher compared to transcripts associated with heterotrophic modes of nutrition at depths without sunlight. 
 
-> Dominant surface phytoplankton community compositions vary with respect to location and environment.
+> Surface phytoplankton community varies according to environment.
+
+
 
 
 
@@ -167,6 +169,13 @@ knitr::include_graphics("images/IMG-4423.JPG")
 ```
 
 ## HOT
+
+The [Hawaii Ocean Time-series (HOT)](http://aco-ssds.soest.hawaii.edu/ALOHA/) samples station ALOHA - or A Long-Term Oligotrophic Habitat Assessment monthly. This time series has been running for over 30 years. As part of the Simons Foundation funded SCOPE collaboration, I was able to be involved in several cruises to station ALOHA. This was an exciting opportunity to study the oligotrophic North Pacific Subtropical Gyre and compare our findings and methods to the coastal ecosystem of California.
+
+For one field season, we conducted high-resolution diel sampling by following a parcel of water and sampling every 4 hours. As a result of this work, we captured daily fluctuations in microbial community dynamics, including species compositions, microbe-microbe-interactions, grazing activity, and details of how microbial photosynthetic machinery operates on an hourly time scale. 
+
+> Species-specific nutritional needs drive temporal niche partitioning among protistan primary producers and consumers.
+
 
 ```{r, fig.height=1.5, fig.width=8, echo=FALSE}
 ggplot2::ggplot(x = 1, y = 2) + ggplot2::theme_void() + ggplot2::theme(plot.background = ggplot2::element_rect(fill = "#93b778", colour = NA))

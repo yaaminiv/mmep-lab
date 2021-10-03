@@ -26,6 +26,6 @@ navbar:
         - text: "packages"
           href: r-packages.html
         - text: "learn R"
-          href: r-learn.html
+          href: https://shu251.github.io/r-ventures/#introduction
 output: distill::distill_article
 theme: theme.css
