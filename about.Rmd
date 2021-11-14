@@ -28,7 +28,7 @@ knitr::include_graphics("images/profile-slack-shu.jpg")
 
 Family Halloween costume. Sea otter, kelp, urchin. [doi](https://doi.org/10.1038/d41586-021-03048-7)
 
-```{r out.width ="20%", echo=FALSE}
+```{r out.width ="40%", echo=FALSE}
 knitr::include_graphics("images/keystone.png")
 ```
 
