@@ -13,6 +13,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Meta'omics
 
+* [EUKHeist](https://github.com/alexanderlabwhoi/EukHeist) & [preprint] (https://www.biorxiv.org/content/10.1101/2021.07.25.453713v1)
+
+* [EUKulele](https://eukulele.readthedocs.io/en/latest/) 
+
 * [Code](https://github.com/shu251/SPOT_metatranscriptome) from [a metatranscriptomic survey of protistan trophic strategies](https://onlinelibrary.wiley.com/doi/abs/10.1111/1462-2920.14259)
   + [EukZoo](https://zenodo.org/record/1476236#.XRdsuC2ZNTY) database, an aquatic protistan protein database for meta-omics studies
 

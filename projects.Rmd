@@ -50,7 +50,7 @@ Highly reduced and thermally charged venting fluids from the subseafloor mix wit
 
 Heterotrophic protists are ubiquitous in all aquatic ecosystems and represent an important ecological link by transferring organic carbon from primary producers to higher trophic levels. Previous work has shown protists to be present and active at deep-sea hydrothermal vents and efforts to characterize the composition of these populations has revealed many species to be heterotrophic grazers and parasites. However, efforts to quantify protistan grazing pressure in the deep sea are rare. 
 
-```{r out.height="3%", echo=FALSE, fig.cap="Simplified food web"}
+```{r out.height="2%", echo=FALSE, fig.cap="Simplified food web"}
 knitr::include_graphics("images/foodweb-map-simple.png")
 ```
 
@@ -70,7 +70,7 @@ To assess microbial biodiversity, we rely on sequencing the DNA from microbial c
 
 For this work, I run incubations with diffuse flow fluid collected via ROV to capture the grazing activity of heterotrophic protists. Consumption of microbial prey by protistan grazers (heterotrophs) is a key route of carbon exchange (the transfer of chemosynthetic microorganisms to higher trophic level), and these experiments allow us to obtain a grazing rate (cells consumed ml^-1 day ^day). In order to assess the level of grazing pressure by protists, I compare and contrast the grazing rates and community composisions of protistan assemblages within discharging vent fluid, the plume (hydrothermally-influenced environment above the vent site), and the background deep-sea water. 
 
-```{r out.width ="10%", echo=FALSE}
+```{r out.width ="30%", echo=FALSE}
 knitr::include_graphics("images/vent-with-location.png")
 ```
 
@@ -83,7 +83,7 @@ Axial Seamount is an active submarine volcano on the Juan de Fuca Ridge in the N
 
 ### Upcoming expedition
 
-_Deferred due to COVID 19_ 
+_Summer 2022_ 
 
 ***
 ```{r out.width ="50%", echo=FALSE, fig.cap="Jason van on the RV Atlantis"}
@@ -93,14 +93,19 @@ knitr::include_graphics("images/jason-van.jpg")
 
 
 
-```{r out.width ="40%", echo=FALSE, fig.cap="ROV Jason during the Mid-Cayman Rise cruise"}
+```{r out.width ="25%", echo=FALSE, fig.cap="ROV Jason during the Mid-Cayman Rise cruise"}
 knitr::include_graphics("images/jason-sarah.png")
 ```
+
+### 2020 Expedition
+
+I was a part of the RV Atlantis (AT42-22) research cruise to study the geochemistry and microbiology of the Von Damm and Piccard vent fields, located on the Mid-Cayman Rise. We completed 9 dives with ROV Jason at the Von Damm and Piccard vent fields. Hydrothermal vent fluid collection was facilitated by the isobaric gas-tight (IGT) fluid samplers (9) and the hydrothermal organic geochemistry (HOG) sampler (Susan Lang). CTD-rosette casts were also conducted to obtain water column plume and background seawater. Relevant objectives included (1) conducting grazing incubations and (2) collecting samples from the hydrothermal vent, plume, and background seawater environments. Laboratory work for analyzing the grazing experiments and cell counts has been completed and the molecular work is in progress.
+
+Samples from Von Damm (10 sites) and Piccard (8 sites) vent fields will provide detailed analysis of the microbial composition, biogeography, and role in the food web. 3 of the grazing experiments originated from CTD-rosette casts from the background and plume environment and 6 were conducted with fluid from the HOG. 4 grazing experiments were performed with the IGT, so incubations remained at _in situ_ pressure.
 
 ```{r out.width ="30%", echo=FALSE, fig.cap="Beebe Woods vent at Mid-Cayman Rise. Credit: WHOI"}
 knitr::include_graphics("images/J2-618-IGT1 - Beebe Woods.jpg")
 ```
-### 2020 Expedition
 
 ***
 
@@ -110,12 +115,15 @@ knitr::include_graphics("images/cam2_20190607132644_edited.jpg")
 ## Gorda Ridge
 
 
-
 ```{r out.width ="30%", echo=FALSE, fig.cap="In the ROV Hercules control van with Amy Smith. Credit: OET/Nautilus Live"}
 knitr::include_graphics("images/Sarah-and-Amy-Controlvan-2.jpg")
 ```
 
 ### 2019 Expedition
+
+Sea Cliff and Apollo vent fields along the Gorda Ridge spreading center, located ~200 km off the coast of southern Oregon, were visited in May-June 2019 with the E/V Nautilus (cruise NA108; 5). Low temperature diffuse hydrothermal vent fluid samples <100ºC were collected using the ROV Hercules and a SUspended Particle Rosette Sampler (SUPR; 6). The overarching goal of the cruise was to integrate scientific investigation of the deep sea with the exploration of ocean worlds on other planets, as the deep-sea hydrothermal vent system serves as an analog environment (a part of the SUBSEA program (Systematic Underwater Biogeochemical Science and Exploration Analog)).
+
+Findings from the Gorda Ridge cruise are published: Hu, S.K., Herrera, E.L., Smith, A.R., Pachiadaki, M.G., Edgcomb, V.P., Sylva, S.P., Chan E.W., Seewald, J.S., German, C.R., & Huber, J.A. (2021) Protistan grazing impacts microbial communities and carbon cycling in the deep-sea hydrothermal vent environment. Proc Natl Acad Sci USA [link](https://www.pnas.org/content/118/29/e2102674118) [code](https://shu251.github.io/protist-gordaridge-2021/)
 
 
 ```{r out.width ="20%", echo=FALSE, fig.cap="Sampling microcolonizer experiments on board the EV Nautilus. Credit: OET/Nautilus Live"}
@@ -125,6 +133,16 @@ knitr::include_graphics("images/IMG_4779.jpg")
 ```{r out.width ="60%", echo=FALSE, fig.cap="Mt Edwards vent site at Gorda Ridge with microcolonizer experiments. Credit: OET/Nautilus Live"}
 knitr::include_graphics("images/mtedwards-cones.png")
 ```
+
+All 6 microcolonizer experiments (pictured above) were placed on and near active diffuse flow at Mt. Edwards, each had substrates that included: shell (CaCO3) Riftia tubeworm shell (chitin), quartz, pyrite, basalt, and olivine). Microcolonizers experienced a range of temperatures, influenced by the diffusely venting fluid nearby
+
+
+A summary of my findings were presented as part of the ISOP virtual poster session.
+
+```{r out.width ="80%", echo=FALSE, fig.cap="Graphic comic poster for ISOP, August 2020"}
+knitr::include_graphics("images/GR-comic-protistsession-updated.png")
+```
+
 
 ```{r, fig.height=1.5, fig.width=8, echo=FALSE}
 ggplot2::ggplot(x = 1, y = 2) + ggplot2::theme_void() + ggplot2::theme(plot.background = ggplot2::element_rect(fill = "#b63e36", colour = NA))
@@ -161,9 +179,6 @@ To access the metabolically-active component of the protistan community at SPOT,
 > Surface phytoplankton community varies according to environment.
 
 
-
-
-
 ```{r out.width ="40%", echo=FALSE, fig.cap="HOT cruise"}
 knitr::include_graphics("images/IMG-4423.JPG")
 ```
@@ -183,9 +198,19 @@ ggplot2::ggplot(x = 1, y = 2) + ggplot2::theme_void() + ggplot2::theme(plot.back
 
 # Data science
 
-Despite their ecological importance, efforts to catalog protistan physiological abilities and trophic strategies lag behind those of their prokaryotic counterparts.
+Despite their ecological importance, efforts to catalog protistan physiological abilities and trophic strategies lag behind those of their prokaryotic counterparts. The interpretation of large sequence datasets relies on the knowledge gleaned from culture-based transcriptome studies, new developments in genetic probing of microorganisms, and single-cell sequencing. It is imperative that we build reproducible pipelines and infrastructure to keep up with growing sequence information.
 
-## Reproducible pipelines
+My two data science related goals are to (1) streamline the methods to link genotype and phenotype for environmentally-relevant microbial eukaryotes and (2) create an engaging environment to teach the next generation of scholars methods in computational approaches.
 
+## Reproducible pipelines & Bioinformatic tools
 
-## Bioinformatic tools
+* [EUKHeist](https://github.com/alexanderlabwhoi/EukHeist) & [preprint](https://www.biorxiv.org/content/10.1101/2021.07.25.453713v1)
+
+* [EUKulele](https://eukulele.readthedocs.io/en/latest/) 
+
+* [Tag-sequencing work flows](https://github.com/shu251/tagseq-qiime2-snakemake)
+
+* [Extracting microbial eukaryotic information from metagenomes](https://github.com/shu251/Extract_microeukrRNA_from_metagenome)
+
+* [Analysing microbiome time-series](https://github.com/shu251/analyzing_microbiome_timeseries)
+
