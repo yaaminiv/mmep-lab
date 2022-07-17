@@ -2,6 +2,9 @@
 title: "research projects"
 description: |
   current & on-going research projects
+  
+  
+  **I am currently looking for new students & collaborators! Get in touch to work with me.**
 output: 
   distill::distill_article:
     css: theme.css
@@ -28,11 +31,21 @@ knitr::include_graphics("images/Screen Shot 2021-09-21 at 12.38.40 PM.png")
   # draw_image("images/00_Trimyema.png")
   
 ```
-## Ecological role
-Protistan species make up the majority of the branches on the eukaryotic tree of life. Similar to their vast and complex morphological ( _e.g._, skeletal structure, modes of mobility, and size), the nutritional strategies (or feeding methods) protists are capable of are diverse and complicated. The three core _trophic modes_ include **phototrophy**, **heterotrophy**, and **mixotrophy**. These trophic strategies place protists at the center of marine food webs -- meaning, they mediate or facilitate central routes of energy and nutrient flux. Hence, protists play several key ecological roles at the base of marine food webs. 
+## Interconnected microbial eukaryome
 
-## Research initiative
+The _interconnected microbial eukaryome_ means I am interested in the relationship between microbial eukaryotes and their environment, and microbial eukaryotes and other organisms. Research typically starts with questions such as _Who is present?_, _What are they doing?_, and _What is their ecological role in marine environments?_ 
+
+Protistan species make up the majority of the branches on the eukaryotic tree of life. Similar to their vast and complex morphological ( _e.g._, skeletal structure, modes of mobility, and size), the nutritional strategies (or feeding methods) protists are capable of are diverse and complicated. The three core _trophic modes_ include **phototrophy**, **heterotrophy**, and **mixotrophy**. These trophic strategies place protists at the center of marine food webs -- meaning, they mediate or facilitate central routes of energy and nutrient flux. Hence, protists play several key ecological roles at the base of marine food webs.
+
+## Three core research initiatives
 From coastal environments to deep-sea habitats, protistan community structure (diversity and composition of species) and nutritional strategies are reflections of their environment. While protists form a central theme in my work, my goal is to make sense of how microorganisms fuel and facilitate the processes sustaining our planet. Through the study of microbial eukaryotes, we learn how diverse nutritional strategies of protists are tied to season, time of day, and availability of resources. My main goal is to understand how protistan communities interact with other microorganisms and their environment to support marine ecosystems.
+
+Three core research themes:
+* **Meta'omics to resolve taxon-specific ecological roles** - Leverage temporal & spatial scales to link genotype & phenotype in natural protistan assemblages.
+* **Trophic interactions at hydrothermal vent food webs** - Heterotrophic microbial eukaryotes associated with deep-sea vents play an important role in deep-sea carbon cycling.
+* **Data science** - Computational biology is a wonderful opportunity for interdisciplinary collaborations. In addition to using data science, I aim to build a "data science community"
+
+Explore how these three themes are intertwined by browsing descriptions of current and past work below.
 
 ***
 ```{r, fig.height=1.5, fig.width=8, echo=FALSE}

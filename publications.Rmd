@@ -21,7 +21,12 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 
 * Beckett, S.J., Demory, D., Coenen, A.R., Casey, J.R., Follet, C.L., Dugenne, M., Connell, P., Carlson, Michael C.G., Hu, S. K., et al. Nonlinear feedbacks and diel population dynamics of cyanobacteria, viruses, and grazers in the North Paciﬁc Subtropical Gyre. (In Review). [bioRxiv](Nonlinear feedbacks and diel population dynamics of cyanobacteria, viruses, and grazers in the North Paciﬁc Subtropical Gyre)
 
-* Hu, S.K., Alexander, H., Liu, Z., Heidelberg, K.B., Dyhrman, S. & Caron, D.A. Distinct transcriptional signatures of the protistan community at the SPOT and ALOHA ocean time-series stations. _(In Prep)_.
+* Hu, S.K., Alexander, H., Liu, Z., Heidelberg, K.B., Dyhrman, S. & Caron, D.A. Distinct transcriptional signatures of the protistan community at the SPOT and ALOHA ocean time-series stations. (In Review).
+
+# 2022
+
+* Cohen, N.R., Alexander, H., Krinos, A.I., Hu, S.K., and Lampe, R.H. (2022) Marine Microeukaryote Metatranscriptomics: Sample Processing and Bioinformatic Workflow Recommendations for Ecological Applications. Front Mar Sci 9: 867007. [link](https://www.frontiersin.org/articles/10.3389/fmars.2022.867007/full)
+
 
 # 2021
 

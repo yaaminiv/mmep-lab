@@ -55,8 +55,8 @@
       "path": "r-packages.html",
       "title": "packages & projects",
       "author": [],
-      "contents": "\nAxial Seamount Wordle\nPlay our\ncustom Axial Seamount-themed wordle\nPart of our #protatax\nexpedition.\n\n\n\nWoods Hole color palette\nDownload color palettes inspired by Cape Cod and Woods Hole area.\nIncludes docks, sunsets, WHOI logo, and RV Atlantis. github\n🏅 🏋\nExeRcise\nGenerate a randomized custom workout. Inspired by High Intensity\nInterval training workouts, user defines warm up and workout interval\nlength and total number of exercises. Additional functions to run\nworkout with a timer in R and a tabata-style workout. github\n🧪 🦠 🔬\nLab work\nBuilt for personal use only. List of functions to streamline\nmolecular bench work and common math required in preparing genetic\nmaterial for sequencing. e.g., PCR master mix calculation, CV=CV, and\nRNA quantification preparation steps. github repo\n\n\n\nthe Knob in Woods Hole, MA\n\n\n\n",
-      "last_modified": "2022-07-17T16:13:14-07:00"
+      "contents": "\nAxial Seamount Wordle\nPlay our\ncustom Axial Seamount-themed wordle\nPart of our #protatax\nexpedition.\n\n\n\nWoods Hole color palette\nDownload color palettes inspired by Cape Cod and Woods Hole area.\nIncludes docks, sunsets, WHOI logo, and RV Atlantis. github\n\n\n\n🏅 🏋\nExeRcise\nGenerate a randomized custom workout. Inspired by High Intensity\nInterval training workouts, user defines warm up and workout interval\nlength and total number of exercises. Additional functions to run\nworkout with a timer in R and a tabata-style workout. github\n🔬 🦠 🔬\nLab work\nBuilt for personal use only. List of functions to streamline\nmolecular bench work and common math required in preparing genetic\nmaterial for sequencing. e.g., PCR master mix calculation, CV=CV, and\nRNA quantification preparation steps. github repo\n\n\n\nthe Knob in Woods Hole, MA\n\n\n\n",
+      "last_modified": "2022-07-17T16:16:10-07:00"
     },
     {
       "path": "resources.html",

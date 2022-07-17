@@ -1,5 +1,5 @@
 ---
-title: "packages"
+title: "packages & projects"
 description:
 output: 
   distill::distill_article:
@@ -9,13 +9,26 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 ```
+# Axial Seamount Wordle
+
+[Play our custom Axial Seamount-themed wordle](https://sarah-k-hu.shinyapps.io/wordle-axial/)
+
+Part of our [#protatax](https://www2.whoi.edu/staff/jhuber/protatax2022/) expedition.
+
+```{r out.width ="50%", echo=FALSE}
+knitr::include_graphics("images/vent-logo-protatax_JulieForCruise.jpg")
+```
+
+***
+
+# Woods Hole color palette
+Download color palettes inspired by Cape Cod and Woods Hole area. Includes docks, sunsets, WHOI logo, and RV Atlantis.
+[github](https://github.com/shu251/PaletteWoodsHole)
+
 
 ```{r out.width ="50%", echo=FALSE}
 knitr::include_graphics("images/knob1.png")
 ```
-# Woods Hole color palette
-Download color palettes inspired by Cape Cod and Woods Hole area. Includes docks, sunsets, WHOI logo, and RV Atlantis.
-[github](https://github.com/shu251/PaletteWoodsHole)
 
 ***
 
