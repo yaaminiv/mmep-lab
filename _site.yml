@@ -7,6 +7,10 @@ navbar:
   right:
     - text: "home"
       href: index.html
+    - text: "lab"
+      menu:
+        - text: "join"
+          href: people.html
     - text: "research"
       href: projects.html
     - text: "publications"

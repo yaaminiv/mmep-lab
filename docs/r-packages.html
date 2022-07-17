@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,7 +77,7 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
@@ -85,27 +85,28 @@ code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
+
   <!--radix_placeholder_meta_tags-->
-  <title>Sarah K. Hu: packages</title>
+  <title>Sarah K. Hu: packages &amp; projects</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Sarah K. Hu: packages"/>
+  <meta property="og:title" content="Sarah K. Hu: packages &amp; projects"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Sarah K. Hu"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Sarah K. Hu: packages"/>
+  <meta property="twitter:title" content="Sarah K. Hu: packages &amp; projects"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["packages"]},{"type":"NULL"},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["css"]}},"value":[{"type":"character","attributes":{},"value":["theme.css"]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["packages & projects"]},{"type":"NULL"},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["css"]}},"value":[{"type":"character","attributes":{},"value":["theme.css"]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -452,7 +453,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1859,7 +1860,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2355,7 +2359,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2376,7 +2380,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"packages","authors":[]}
+{"title":"packages & projects","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2388,6 +2392,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 <div class="nav-right">
 <a href="index.html">home</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+lab
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="people.html">join</a>
+</div>
+</div>
 <a href="projects.html">research</a>
 <a href="publications.html">publications</a>
 <div class="nav-dropdown">
@@ -2423,7 +2437,7 @@ R
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>packages</h1>
+<h1>packages &amp; projects</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2431,25 +2445,42 @@ R
 
 
 <div class="d-article">
+<h1 id="axial-seamount-wordle">Axial Seamount Wordle</h1>
+<p><a href="https://sarah-k-hu.shinyapps.io/wordle-axial/">Play our
+custom Axial Seamount-themed wordle</a></p>
+<p>Part of our <a
+href="https://www2.whoi.edu/staff/jhuber/protatax2022/">#protatax</a>
+expedition.</p>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="images/knob1.png" width="50%" style="display: block; margin: auto;" /></p>
 </div>
 <h1 id="woods-hole-color-palette">Woods Hole color palette</h1>
-<p>Download color palettes inspired by Cape Cod and Woods Hole area. Includes docks, sunsets, WHOI logo, and RV Atlantis. <a href="https://github.com/shu251/PaletteWoodsHole">github</a></p>
+<p>Download color palettes inspired by Cape Cod and Woods Hole area.
+Includes docks, sunsets, WHOI logo, and RV Atlantis. <a
+href="https://github.com/shu251/PaletteWoodsHole">github</a></p>
 <hr />
 <p>🏅 🏋</p>
 <h1 id="exercise">ExeRcise</h1>
-<p>Generate a randomized custom workout. Inspired by High Intensity Interval training workouts, user defines warm up and workout interval length and total number of exercises. Additional functions to run workout with a timer in R and a tabata-style workout. <a href="https://github.com/shu251/exRcise">github</a></p>
+<p>Generate a randomized custom workout. Inspired by High Intensity
+Interval training workouts, user defines warm up and workout interval
+length and total number of exercises. Additional functions to run
+workout with a timer in R and a tabata-style workout. <a
+href="https://github.com/shu251/exRcise">github</a></p>
 <hr />
-<p>🔬 🦠 🔬</p>
+<p>🧪 🦠 🔬</p>
 <h1 id="lab-work">Lab work</h1>
-<p>Built <em>for personal use only</em>. List of functions to streamline molecular bench work and common math required in preparing genetic material for sequencing. e.g., PCR master mix calculation, CV=CV, and RNA quantification preparation steps. <a href="https://github.com/shu251/lab">github repo</a></p>
+<p>Built <em>for personal use only</em>. List of functions to streamline
+molecular bench work and common math required in preparing genetic
+material for sequencing. e.g., PCR master mix calculation, CV=CV, and
+RNA quantification preparation steps. <a
+href="https://github.com/shu251/lab">github repo</a></p>
 <hr />
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="images/knob.jpg" width="60%" style="display: block; margin: auto;" /></p>
 </div>
 <p><em>the Knob in Woods Hole, MA</em></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

@@ -1,0 +1,37 @@
+---
+title: "Lab group"
+description: _join us!_
+output: 
+  distill::distill_article:
+    css: theme.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+I will be starting a lab group at [Texas A&M Department of Oceanography](https://ocean.tamu.edu) in the College of Geosciences. Join the group!
+
+
+## Join the lab
+
+Please contact me if you are interested in working together. While I encourage you to explore my past & on-going research themes, please share what research questions you are excited to addres.
+
+### PhD opportunities
+
+* [Texas A&M Graduate program](https://ocean.tamu.edu/academics/graduate-programs/index.html) | Apply by January
+
+* [NSF GRFP](https://www.nsfgrfp.org) | Deadline: mid-October
+
+### Undergraduate opportunities
+
+* [REU program at TAMU](https://oceanography.tamu.edu/academics/reu/index.html) | Deadline: February
+
+### Postdoctoral opportunities
+
+* [NSF Ocean Sciences Postdoctoral Research Fellowships](https://www.nsf.gov/pubs/2021/nsf21538/nsf21538.htm) | Deadline: May & November
+
+* [C-COMP Postdoctoral Fellows](https://ccomp-stc.org/education-diversity/graduate-students-and-postdoctoral-researchers/) | Deadline: mid-April
+
+* [Simons Foundation Postdoctoral Fellowship in Marine Microbial Ecology](https://www.simonsfoundation.org/grant/simons-postdoctoral-fellowships-in-marine-microbial-ecology/) | Deadline: mid-May
