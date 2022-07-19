@@ -45,8 +45,6 @@ Three core research themes:
 * **Trophic interactions at hydrothermal vent food webs** - Heterotrophic microbial eukaryotes associated with deep-sea vents play an important role in deep-sea carbon cycling.
 * **Data science** - Computational biology is a wonderful opportunity for interdisciplinary collaborations. In addition to using data science, I aim to build a "data science community"
 
-Explore how these three themes are intertwined by browsing descriptions of current and past work below.
-
 ***
 ```{r, fig.height=1.5, fig.width=8, echo=FALSE}
 ggplot2::ggplot(x = 1, y = 2) + ggplot2::theme_void() + ggplot2::theme(plot.background = ggplot2::element_rect(fill = "#ce536b", colour = NA))
@@ -89,28 +87,27 @@ knitr::include_graphics("images/vent-with-location.png")
 
 In aquatic habitats, transition zones driven by changes in chemistry or nutrients can create biological 'hotspots' of microbial activity. Within the hydrothermal vent environment
 
-## Axial Seamount
+
+## Microbes need frenemies
+
+
+
+## Field work
+
+### Axial Seamount
 We are currently planning work at Axial Seamount (NE Pacific Ocean) as part of an [NSF-funded proposal](https://nsf.gov/awardsearch/showAward?AWD_ID=1947776&HistoricalAwards=false) to characterize the rate and route of carbon via phagotrophic protists.
 
 Axial Seamount is an active submarine volcano on the Juan de Fuca Ridge in the NE Pacific Ocean, off the coast of Oregon. The microbiome of the low-temperature (<100C) diffuse vent sites in the region have been frequently studied and the vent field within the caldera include a range of distinct geochemistries. 
-
-### Upcoming expedition
-
-_Summer 2022_ 
 
 ***
 ```{r out.width ="50%", echo=FALSE, fig.cap="Jason van on the RV Atlantis"}
 knitr::include_graphics("images/jason-van.jpg")
 ```
-## Mid-Cayman Rise
-
-
+### Mid-Cayman Rise - 2020 Expedition
 
 ```{r out.width ="25%", echo=FALSE, fig.cap="ROV Jason during the Mid-Cayman Rise cruise"}
 knitr::include_graphics("images/jason-sarah.png")
 ```
-
-### 2020 Expedition
 
 I was a part of the RV Atlantis (AT42-22) research cruise to study the geochemistry and microbiology of the Von Damm and Piccard vent fields, located on the Mid-Cayman Rise. We completed 9 dives with ROV Jason at the Von Damm and Piccard vent fields. Hydrothermal vent fluid collection was facilitated by the isobaric gas-tight (IGT) fluid samplers (9) and the hydrothermal organic geochemistry (HOG) sampler (Susan Lang). CTD-rosette casts were also conducted to obtain water column plume and background seawater. Relevant objectives included (1) conducting grazing incubations and (2) collecting samples from the hydrothermal vent, plume, and background seawater environments. Laboratory work for analyzing the grazing experiments and cell counts has been completed and the molecular work is in progress.
 
@@ -125,14 +122,11 @@ knitr::include_graphics("images/J2-618-IGT1 - Beebe Woods.jpg")
 ```{r out.width ="100%", echo=FALSE, fig.cap="ROV Hercules at newly discovered Apollo vent field. Credit: OET/Nautilus Live"}
 knitr::include_graphics("images/cam2_20190607132644_edited.jpg")
 ```
-## Gorda Ridge
-
+## Gorda Ridge - 2019 Expedition
 
 ```{r out.width ="30%", echo=FALSE, fig.cap="In the ROV Hercules control van with Amy Smith. Credit: OET/Nautilus Live"}
 knitr::include_graphics("images/Sarah-and-Amy-Controlvan-2.jpg")
 ```
-
-### 2019 Expedition
 
 Sea Cliff and Apollo vent fields along the Gorda Ridge spreading center, located ~200 km off the coast of southern Oregon, were visited in May-June 2019 with the E/V Nautilus (cruise NA108; 5). Low temperature diffuse hydrothermal vent fluid samples <100ºC were collected using the ROV Hercules and a SUspended Particle Rosette Sampler (SUPR; 6). The overarching goal of the cruise was to integrate scientific investigation of the deep sea with the exploration of ocean worlds on other planets, as the deep-sea hydrothermal vent system serves as an analog environment (a part of the SUBSEA program (Systematic Underwater Biogeochemical Science and Exploration Analog)).
 
@@ -149,6 +143,11 @@ knitr::include_graphics("images/mtedwards-cones.png")
 
 All 6 microcolonizer experiments (pictured above) were placed on and near active diffuse flow at Mt. Edwards, each had substrates that included: shell (CaCO3) Riftia tubeworm shell (chitin), quartz, pyrite, basalt, and olivine). Microcolonizers experienced a range of temperatures, influenced by the diffusely venting fluid nearby
 
+* What species colonize these substrates first? 
+
+* Does species richness and evenness vary by substrate type?
+
+* Are the same species found on the substrates also found at the diffuse vent fluid?
 
 A summary of my findings were presented as part of the ISOP virtual poster session.
 
@@ -226,4 +225,5 @@ My two data science related goals are to (1) streamline the methods to link geno
 * [Extracting microbial eukaryotic information from metagenomes](https://github.com/shu251/Extract_microeukrRNA_from_metagenome)
 
 * [Analysing microbiome time-series](https://github.com/shu251/analyzing_microbiome_timeseries)
+
 
