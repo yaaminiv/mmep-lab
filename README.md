@@ -16,3 +16,9 @@ overview of files:
 
 
 Website link: https://shu251.github.io/sarah-hu/
+
+Rendering:
+```
+library(rmarkdown)
+render_site()
+```

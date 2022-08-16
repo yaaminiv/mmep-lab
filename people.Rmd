@@ -40,6 +40,6 @@ knitr::include_graphics(c("images/IMG_3580.jpg","images/IMG_3412.jpg"))
 * [Simons Foundation Postdoctoral Fellowship in Marine Microbial Ecology](https://www.simonsfoundation.org/grant/simons-postdoctoral-fellowships-in-marine-microbial-ecology/) | Deadline: mid-May
 
 
-```{r, figures-side2, fig.show="hold", out.width="35%", out.height=40%}
+```{r, fig.show="hold", out.width="35%"}
 knitr::include_graphics(c("images/IMG-4423.JPG", "images/jason-van.jpg"))
 ```

@@ -1,5 +1,5 @@
 ---
-title: ""
+title: " "
 image: "images/profile.jpg"
 links:
   - label: scholar
