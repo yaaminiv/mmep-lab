@@ -8,7 +8,7 @@ navbar:
     - text: "home"
       href: index.html
     - text: "lab"
-      menu:
+      menu: 
         - text: "join"
           href: people.html
     - text: "research"

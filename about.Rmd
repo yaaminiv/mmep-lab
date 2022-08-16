@@ -10,14 +10,18 @@ output:
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 ```
 
-## contact
+## Sarah Hu, Ph.D.
+
+Dr. Sarah Hu is currently a Postdoctoral Investigator at Woods Hole Oceanographic Institution and will be starting as an Assistant Professor in the Department of Oceanography at Texas A&M in 2023. Her research centers around the *ecological significance of single-celled microbial eukaryotes* in marine environments. She completed her Ph.D. at the University of Southern California, which worked to use time-series data to explore the *temporal and spatial dynamics* of microbial eukaryotic communities (Advisor: Dr. David Caron). Sarah joined Woods Hole Oceanographic Institution in 2018 as a Postdoc Fellow to investigate the ecology of *deep-sea microorganisms found at hydrothermal vents* (Advisor: Dr. Julie Huber). Here at WHOI, she characterizes the key 'boxes' and 'arrows' that make up the microbial *food web* in the deep sea, with a particular interest in protistan grazing on vent microorganisms. Sarah's research questions typically involve oceanic field work, molecular biology, microscopy, and data science.
+
+Sarah is also committed to the next generation of scientists - this includes creating a more inclusive space in the field and lab, and ensuring students have opportunities to learn skills they want and address research questions that spark their interests!
+Alongside research, Sarah teaches methods in computational biology, specifically bioinformatics, the R programming language, and data visualization (See BVCN, Software Carpentry, & other R resources. 
+
+## contact & follow
 
 sarah.hu [at] whoi.edu
 
-
-## follow
-
-Twitter: [shu251](https://twitter.com/shu251)
+[@shu251](https://twitter.com/shu251)
 
 
 ```{r out.width ="30%", echo=FALSE}
@@ -25,12 +29,12 @@ knitr::include_graphics("images/profile-slack-shu.jpg")
 ```
 
 
-
 Family Halloween costume. Sea otter, kelp, urchin. [doi](https://doi.org/10.1038/d41586-021-03048-7)
 
 ```{r out.width ="40%", echo=FALSE}
 knitr::include_graphics("images/keystone.png")
 ```
+
 
 ```{r, fig.height=1, fig.width=8, echo=FALSE}
 ggplot2::ggplot(x = 1, y = 2) + ggplot2::theme_void() + ggplot2::theme(plot.background = ggplot2::element_rect(fill = "#ce536b", colour = NA))

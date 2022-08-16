@@ -25,6 +25,10 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 
 # 2022
 
+* Hammond, S.W,, Lodolo, L., Hu, S.K., & Pasulka, A.L. (_In Press_) Methodological ‘lenses’ influence the characterization of phytoplankton dynamics in a coastal upwelling ecosystem. Environmental Microbiology Reports
+
+* Ollison, G.A., Hu, S.K., Hopper, J.V., Stewart, B.P., Smith, J., Beatty, J.L., et al. (2022) Daily dynamics of contrasting spring algal blooms in Santa Monica Bay (central Southern California Bight). Environmental Microbiology 1462-2920.16137.
+
 * Cohen, N.R., Alexander, H., Krinos, A.I., Hu, S.K., and Lampe, R.H. (2022) Marine Microeukaryote Metatranscriptomics: Sample Processing and Bioinformatic Workflow Recommendations for Ecological Applications. Front Mar Sci 9: 867007. [link](https://www.frontiersin.org/articles/10.3389/fmars.2022.867007/full)
 
 

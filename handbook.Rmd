@@ -1,0 +1,61 @@
+---
+title: "Lab handbook"
+description: |
+  _ya'll == you all_
+output: 
+  distill::distill_article:
+    css: theme.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Welcome
+
+# Lab mission statement
+
+# Expectations & responsibilities
+
+**Code of conduct**:
+
+## On-boarding
+
+## Meetings & participation
+
+## Safety
+
+## Collaboration
+
+## Learn, teach, & train
+
+## Time off
+
+# Expectations from me
+
+# 'How to'
+
+## Tools for productivity
+
+## Onboarding
+
+## Resources for research
+
+## You got this
+
+# Data management & reproducibility
+
+_document & take notes so future you thanks past you_
+
+
+# Authorship guidelines
+
+The lead trainee that typically spends the most amount of time on a specific project will likely be the first author of published work. Individuals that contribute significantly to completing a project, including sample collection, sample processing, data processing, or intellectual support, may be added as co-authors. It will be up to myself and the first author to decide on the author order. If an individual passes a project to another (for any reason), a decision regarding a change in first authorship or co-first authorship will be made at that time. 
+
+Collaborations are encouraged and peer training is an important part of our science. Please consider time management and what a significant contribution is when it comes to evaluating if someone deserves to be a co-author. Additional individuals that assist in the success of a project should be thanked in the acknowledgment section of a paper. Before publication, clear this acknowledgment with each individual. 
+
+It is expected that projects may take a long time, or someone may move to a new position before completing a project. Please leave a copy of well-documented notes on current project status before physically leaving the lab. Discuss a realistic project timeline with me and be open to potential changes in authorship if a large amount of work is unfinished.
+
+
+#
+
