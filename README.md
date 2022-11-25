@@ -1,4 +1,5 @@
 ### Personal website
+
 _Instructions in Rmarkdown_
 
 1. create Github repo. Enable readme and .gitignore with R
@@ -22,3 +23,18 @@ Rendering:
 library(rmarkdown)
 render_site()
 ```
+
+# Migration to Quarto
+
+https://quarto.org/docs/websites/
+
+in terminal
+```
+quarto create-project mysite --type website
+```
+
+File navigation
+
+```_quarto.yml```: set up and navigation doc 
+
+Set up each page with a .qmd document. Select Render and it will populate ```_site``` directory. Launch git page from this directory.

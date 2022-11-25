@@ -4,6 +4,7 @@ description: |
   Personal website of Sarah Hu
 output_dir: "docs"
 navbar:
+  title: "<img id=\"logo\" style=\"width: 30px;\" src=\"images/Hu Lab Logo Final-01.png\" />"
   right:
     - text: "home"
       href: index.html
@@ -31,5 +32,3 @@ navbar:
           href: r-packages.html
         - text: "learn R"
           href: https://shu251.github.io/r-ventures/#introduction
-output: distill::distill_article
-theme: theme.css
