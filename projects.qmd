@@ -1,0 +1,30 @@
+---
+title: "Main themes"
+format: html
+editor: visual
+---
+
+## Protists
+
+Single-celled microbial eukaryotes *or protists* are critical team players in most ecosystems on our planet. Protistan communities are composed of hundreds to thousands of species. The species composition of protistan communities can serve as a sentinel of the surrounding environment.
+
+### Three core research initiatives
+
+::: column-margin
+![](images/00_Trimyema.png)
+:::
+
+From coastal environments to deep-sea habitats, protistan community structure (diversity and composition of species) and nutritional strategies are reflections of their environment. While protists form a central theme in my work, my goal is to make sense of how microorganisms fuel and facilitate the processes sustaining our planet. Through the study of microbial eukaryotes, we learn how diverse nutritional strategies of protists are tied to season, time of day, and availability of resources. My main goal is to understand how protistan communities interact with other microorganisms and their environment to support marine ecosystems.
+::: column-margin
+![](images/00_Acantharia.png)
+:::
+Three core research themes:
+
+-   **Meta'omics to resolve taxon-specific ecological roles** - Leverage temporal & spatial scales to link genotype & phenotype in natural protistan assemblages.
+
+-   **Trophic interactions at hydrothermal vent food webs** - Heterotrophic microbial eukaryotes associated with deep-sea vents play an important role in deep-sea carbon cycling.
+
+-   **Data science** - Computational biology is a wonderful opportunity for interdisciplinary collaborations. In addition to using data science, I aim to build a "data science community"
+::: column-margin
+![](images/00_Ehux.png)
+:::
