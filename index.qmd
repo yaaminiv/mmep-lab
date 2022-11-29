@@ -1,0 +1,15 @@
+---
+title: "Home"
+format: html
+editor: visual
+---
+
+![](images/Screen Shot 2021-09-21 at 12.38.40 PM.png){fig-align="center"}
+
+The Hu lab is in the **Department of Oceanography** at **Texas A&M **. We explore the ecological significance of unicellular eukaryotes (microeukaryotes or protists) in marine  ecosystems. Microorgansims fuel the critical biogeochemical processes that make the planet what it is - in turn, they can be bellweathers of environmental change. We use a range of meta'omics and lab experiments to understand what protists are where and what they are doing. 
+
+# Interconnected microbial eukaryome
+
+The _interconnected microbial eukaryome_ means I am interested in the relationship between microbial eukaryotes and their environment, and microbial eukaryotes and other organisms. Research typically starts with questions such as _Who is present?_, _What are they doing?_, and _What is their ecological role in marine environments?_ 
+
+Protistan species make up the majority of the branches on the eukaryotic tree of life. Similar to their vast and complex morphological ( _e.g._, skeletal structure, modes of mobility, and size), the nutritional strategies (or feeding methods) protists are capable of are diverse and complicated. The three core _trophic modes_ include **phototrophy**, **heterotrophy**, and **mixotrophy**. These trophic strategies place protists at the center of marine food webs -- meaning, they mediate or facilitate central routes of energy and nutrient flux. Hence, protists play several key ecological roles at the base of marine food webs.
