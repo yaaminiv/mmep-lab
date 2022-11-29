@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd # home page
+    - team.qmd # lab members
+    - projects.qmd #research --> separate into sections
+    - deepsea-vents.qmd
+    - time-series.qmd
+    - data-science.qmd
+    - publications.qmd
+    - resources.qmd
+    - r-packages.qmd
+    - lab-policies.qmd
+
+website:
+  sidebar:
+    style: "docked"
+    search: true
+    tools:
+      - icon: twitter
+        href: https://twitter.com/shu251
+      - icon: github
+        href: https://github.com/shu251
+      - icon: scholar
+        href: https://scholar.google.com/citations?user=9CI91CMAAAAJ&hl=en
+    alignment: "right"
+    background: "#f0f0f0"
+    foreground: "#81278F"
+    logo: "images/Hu Lab Logo Final-01.png"
+    contents: 
+      - href: index.qmd #turn this into about the lab
+      - team.qmd # people
+      - text: "---"
+      - section: "Research"
+        contents:
+          - projects.qmd #overview of research themes
+          - deepsea-vents.qmd
+          - time-series.qmd
+          - data-science.qmd
+          - publications.qmd
+      - text: "---"
+      - section: "Resources"
+        contents:
+          - resources.qmd
+          - r-packages.qmd
+          - text: "Learn R"
+            href: https://shu251.github.io/r-ventures/#introduction
+          - lab-policies.qmd
+    page-navigation: true
+    page-footer:
+      right: 
+        logo: "images/Hu Lab Logo Final-01.png"
+
+format:
+  html:
+    theme: 
+      - minty
+      - custom.scss
+    css: styles.css
