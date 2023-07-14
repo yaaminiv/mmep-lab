@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "The Hu lab is in the Department of Oceanography at Texas A&M . We explore the ecological significance of unicellular eukaryotes (microeukaryotes or protists) in marine ecosystems. Microorgansims fuel the critical biogeochemical processes that make the planet what it is - in turn, they can be bellweathers of environmental change. We use a range of meta’omics and lab experiments to understand what protists are where and what they are doing.\n\nInterconnected microbial eukaryome\nThe interconnected microbial eukaryome means I am interested in the relationship between microbial eukaryotes and their environment, and microbial eukaryotes and other organisms. Research typically starts with questions such as Who is present?, What are they doing?, and What is their ecological role in marine environments?\nProtistan species make up the majority of the branches on the eukaryotic tree of life. Similar to their vast and complex morphological ( e.g., skeletal structure, modes of mobility, and size), the nutritional strategies (or feeding methods) protists are capable of are diverse and complicated. The three core trophic modes include phototrophy, heterotrophy, and mixotrophy. These trophic strategies place protists at the center of marine food webs – meaning, they mediate or facilitate central routes of energy and nutrient flux. Hence, protists play several key ecological roles at the base of marine food webs."
+    "text": "The Hu lab is in the Department of Oceanography at Texas A&M University . We explore the ecological significance of unicellular eukaryotes (microeukaryotes or protists) in marine ecosystems. Microorgansims fuel the critical biogeochemical processes that make the planet what it is - in turn, they can be bellweathers of environmental change. We use a range of meta’omics and lab experiments to understand what protists are where and what they are doing.\n\nInterconnected microbial eukaryome\nThe interconnected microbial eukaryome means I am interested in the relationship between microbial eukaryotes and their environment, and microbial eukaryotes and other organisms. Research typically starts with questions such as Who is present?, What are they doing?, and What is their ecological role in marine environments?\nProtistan species make up the majority of the branches on the eukaryotic tree of life. Similar to their vast and complex morphological ( e.g., skeletal structure, modes of mobility, and size), the nutritional strategies (or feeding methods) protists are capable of are diverse and complicated. The three core trophic modes include phototrophy, heterotrophy, and mixotrophy. These trophic strategies place protists at the center of marine food webs – meaning, they mediate or facilitate central routes of energy and nutrient flux. Hence, protists play several key ecological roles at the base of marine food webs."
   },
   {
     "objectID": "team.html",
     "href": "team.html",
     "title": "Lab group",
     "section": "",
-    "text": "Assistant Professor\nskhu [at] tamu.edu\nsarah.hu [at] whoi.edu\ncv\nshe/her"
+    "text": "Assistant Professor\nskhu [at] tamu.edu\ncv\nshe/her\n\n\n\n :::\nPhD student alexis98adams [at] tamu.edu\nshe/her\n\n\n\n :::\nPhD student knedd [at] tamu.edu\nshe/her"
   },
   {
     "objectID": "team.html#join",
@@ -25,7 +25,7 @@
     "href": "projects.html",
     "title": "Main themes",
     "section": "",
-    "text": "Single-celled microbial eukaryotes or protists are critical team players in most ecosystems on our planet. Protistan communities are composed of hundreds to thousands of species. The species composition of protistan communities can serve as a sentinel of the surrounding environment.\n\n\nFrom coastal environments to deep-sea habitats, protistan community structure (diversity and composition of species) and nutritional strategies are reflections of their environment. While protists form a central theme in my work, my goal is to make sense of how microorganisms fuel and facilitate the processes sustaining our planet. Through the study of microbial eukaryotes, we learn how diverse nutritional strategies of protists are tied to season, time of day, and availability of resources. My main goal is to understand how protistan communities interact with other microorganisms and their environment to support marine ecosystems.\nThree core research themes:\n\nMeta’omics to resolve taxon-specific ecological roles - Leverage temporal & spatial scales to link genotype & phenotype in natural protistan assemblages.\nTrophic interactions at hydrothermal vent food webs - Heterotrophic microbial eukaryotes associated with deep-sea vents play an important role in deep-sea carbon cycling.\nData science - Computational biology is a wonderful opportunity for interdisciplinary collaborations. In addition to using data science, I aim to build a “data science community”"
+    "text": "Single-celled microbial eukaryotes or protists are critical team players in most ecosystems on our planet. Protistan communities are composed of hundreds to thousands of species. The species composition of protistan communities can serve as a sentinel of the surrounding environment.\n\n\n\n\n\nFrom coastal environments to deep-sea habitats, protistan community structure (diversity and composition of species) and nutritional strategies are reflections of their environment. While protists form a central theme in my work, my goal is to make sense of how microorganisms fuel and facilitate the processes sustaining our planet. Through the study of microbial eukaryotes, we learn how diverse nutritional strategies of protists are tied to season, time of day, and availability of resources. My main goal is to understand how protistan communities interact with other microorganisms and their environment to support marine ecosystems. ::: column-margin  ::: Three core research themes:\n\nMeta’omics to resolve taxon-specific ecological roles - Leverage temporal & spatial scales to link genotype & phenotype in natural protistan assemblages.\nTrophic interactions at hydrothermal vent food webs - Heterotrophic microbial eukaryotes associated with deep-sea vents play an important role in deep-sea carbon cycling.\nData science - Computational biology is a wonderful opportunity for interdisciplinary collaborations. In addition to using data science, I aim to build a “data science community” ::: column-margin  :::"
   },
   {
     "objectID": "deepsea-vents.html",
@@ -130,7 +130,7 @@
     "href": "lab-policies.html",
     "title": "Lab community",
     "section": "",
-    "text": "Please check back later. Currently in prep!\nBelow text is intended to be a document in progress."
+    "text": "1 Welcome to the lab\nPlease check back later. This page is currently in prep!\nBelow text is intended to be a living document, where frequent check ins and opportunities to suggest new content or revisions to content will occur.\n\n\n2 Guidelines & expectations\nLab rules\n\nSafety first\nBe an ally\nMake mistakes\nLearn & train\n\nIn this lab we prioritize creating a positive, welcoming, and warm environment. Science is for everyone. Science can also be extremely frustrating and challenging. Thus, the space we create as a lab community is collaborative and encouraging."
   },
   {
     "objectID": "lab-policies.html#time-management-health-seeking-help",
@@ -201,5 +201,12 @@
     "title": "Lab community",
     "section": "5.10 Graduate student onboarding",
     "text": "5.10 Graduate student onboarding"
+  },
+  {
+    "objectID": "team.html#join-us",
+    "href": "team.html#join-us",
+    "title": "Lab group",
+    "section": "Join us",
+    "text": "Join us\nPlease contact me (skh[at]tamu.edu) if you are interested in working together, I am recruiting PhD students and TAMU undergraduates. While I encourage you to explore my past & on-going research projects, please share what research questions you are excited to address.How do I apply?\n\n\nPhD opportunities\n\nTexas A&M Graduate program | Apply by January 1\nNSF GRFP | Deadline: mid-October\n\n\n\nUndergraduate opportunities\n\nREU program at TAMU | Deadline: February\n\n\n\nPostdoctoral opportunities\n\nNSF Ocean Sciences Postdoctoral Research Fellowships | Deadline: May & November\nC-COMP Postdoctoral Fellows | Deadline: mid-April\nSimons Foundation Postdoctoral Fellowship in Marine Microbial Ecology | Deadline: mid-May"
   }
 ]

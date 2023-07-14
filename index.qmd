@@ -1,6 +1,5 @@
 ---
 title: "Home"
-format: html
 format: 
   html:
     toc: false
@@ -12,7 +11,7 @@ editor: visual
 
 ![](images/protist-banner-yellow.png){fig-align="center"}
 
-The Hu lab is in the **Department of Oceanography** at **Texas A&M** . We explore the ecological significance of unicellular eukaryotes (microeukaryotes or protists) in marine ecosystems. Microorgansims fuel the critical biogeochemical processes that make the planet what it is - in turn, they can be bellweathers of environmental change. We use a range of meta'omics and lab experiments to understand what protists are where and what they are doing.
+The Hu lab is in the **Department of Oceanography** at **Texas A&M University** . We explore the ecological significance of unicellular eukaryotes (microeukaryotes or protists) in marine ecosystems. Microorgansims fuel the critical biogeochemical processes that make the planet what it is - in turn, they can be bellweathers of environmental change. We use a range of meta'omics and lab experiments to understand what protists are where and what they are doing.
 
 # Interconnected microbial eukaryome
 
