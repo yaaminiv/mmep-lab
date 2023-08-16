@@ -3,9 +3,6 @@ title: "Home"
 format: 
   html:
     toc: false
-    toc-depth: 3
-    toc-location: right
-    number-sections: false
 editor: visual
 ---
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publications</title>
+<title>publications</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -39,11 +40,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 20,
   "language": {
     "search-no-results-text": "No results",
@@ -59,134 +60,118 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="navbar-container container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-the-lab" role="button" data-bs-toggle="dropdown" aria-expanded="false">About the lab</a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about-the-lab">    
-        <li>
-    <a class="dropdown-item" href="./index.html">
- <span class="dropdown-text">Home</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./team.html">
- <span class="dropdown-text">Lab group</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false">Research</a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="./projects.html">
- <span class="dropdown-text">Research themes</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./deepsea-vents.html">
- <span class="dropdown-text">Deep-sea vents</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./time-series.html">
- <span class="dropdown-text">Time-series</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./data-science.html">
- <span class="dropdown-text">Data science</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./publications.html">
- <span class="dropdown-text">Publications</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-resources">    
-        <li>
-    <a class="dropdown-item" href="./resources.html">
- <span class="dropdown-text">Tools</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./r-packages.html">
- <span class="dropdown-text">R packages &amp; projects</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://shu251.github.io/r-ventures/#introduction">
- <span class="dropdown-text">Learn R</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./lab-policies.html">
- <span class="dropdown-text">Lab community</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/shu251"><i class="bi bi-twitter" role="img">
-</i> 
- </a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/shu251"><i class="bi bi-github" role="img">
-</i> 
- </a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.instagram.com/microhukaryote/"><i class="bi bi-instagram" role="img">
-</i> 
- </a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=9CI91CMAAAAJ&amp;hl=en"><i class="bi bi-share" role="img">
-</i> 
- </a>
-  </li>  
-</ul>
-              <div id="quarto-search" class="" title="Search"></div>
-          </div> <!-- /navcollapse -->
-      </div> <!-- /container-fluid -->
-    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">publications</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="./images/logo-hu.png" class="img-fluid"></p>
-</div></div>
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#pending" id="toc-pending" class="nav-link active" data-scroll-target="#pending"><em>pending</em></a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2022</a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2021</a></li>
-  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2020</a></li>
-  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">2019</a></li>
-  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4">2018</a></li>
-  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5">2017</a></li>
-  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6">2016</a></li>
-  <li><a href="#section-7" id="toc-section-7" class="nav-link" data-scroll-target="#section-7">2015</a></li>
-  </ul>
-</nav>
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="./" class="sidebar-logo-link">
+      <img src="./images/Hu Lab Logo Final-01.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="https://twitter.com/shu251" title="" class="sidebar-tool px-1"><i class="bi bi-twitter"></i></a>
+    <a href="https://github.com/shu251" title="" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://scholar.google.com/citations?user=9CI91CMAAAAJ&amp;hl=en" title="" class="sidebar-tool px-1"><i class="bi bi-scholar"></i></a>
+</div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Research</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Sarah Hu</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./projects.html" class="sidebar-item-text sidebar-link">research projects</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./publications.html" class="sidebar-item-text sidebar-link active">publications</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Team</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about.html" class="sidebar-item-text sidebar-link">about</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cv.html" class="sidebar-item-text sidebar-link">cv</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Resources</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./resources.html" class="sidebar-item-text sidebar-link">resources</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./r-packages.html" class="sidebar-item-text sidebar-link">R packages &amp; projects</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
     </div>
+</nav>
+<!-- margin-sidebar -->
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publications</h1>
+<h1 class="title d-none d-lg-block">publications</h1>
 </div>
 
 
@@ -206,22 +191,22 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Alexander, H., Hu, S.K., Pachidaki, M, Krinos, A.I., Tully, B.J., Neely, C.J., &amp; Reiter, T. Eukaryotic genomes from a global metagenomic dataset illuminate trophic modes and biogeography of ocean plankton. (In Review). <a href="https://www.biorxiv.org/content/10.1101/2021.07.25.453713v1">bioRxiv: 2021.07.25.453713</a></p></li>
 <li><p>Neely, C.J., Hu, S.K., Alexander, H., Tully, B.J. The high-throughput gene prediction of more than 1,700 eukaryote genomes using the software package EukMetaSanity. (In Review) <a href="https://www.biorxiv.org/content/10.1101/2021.07.25.453296v1">bioRxiv: 2021.07.25.453296</a></p></li>
 <li><p>Beckett, S.J., Demory, D., Coenen, A.R., Casey, J.R., Follet, C.L., Dugenne, M., Connell, P., Carlson, Michael C.G., Hu, S. K., et al.&nbsp;Nonlinear feedbacks and diel population dynamics of cyanobacteria, viruses, and grazers in the North Paciﬁc Subtropical Gyre. (In Review). <a href="Nonlinear%20feedbacks%20and%20diel%20population%20dynamics%20of%20cyanobacteria,%20viruses,%20and%20grazers%20in%20the%20North%20Paciﬁc%20Subtropical%20Gyre">bioRxiv</a></p></li>
-<li><p>Hu, S.K., Alexander, H., Liu, Z., Heidelberg, K.B., Dyhrman, S. &amp; Caron, D.A. Distinct transcriptional signatures of the protistan community at the SPOT and ALOHA ocean time-series stations. (<em>In Review</em>).</p></li>
+<li><p>Hu, S.K., Alexander, H., Liu, Z., Heidelberg, K.B., Dyhrman, S. &amp; Caron, D.A. Distinct transcriptional signatures of the protistan community at the SPOT and ALOHA ocean time-series stations. (In Review).</p></li>
 </ul>
 </section>
 <section id="section" class="level1">
 <h1>2022</h1>
 <ul>
-<li><p>Hu, S. K., Smith, A. R., Anderson, R. E., Sylva, S. P., Setzer, M., Steadmon, M., Frank, K. L., Chan, E. W., Lim, D. S. S., German, C. R., Breier, J. A., Lang, S. Q., Butterfield, D. A., Fortunato, C. S., Seewald, J. S., &amp; Huber, J. A. (2022). Globally-distributed microbial eukaryotes exhibit endemism at deep-sea hydrothermal vents. Molecular Ecology, 00, 1–19. https://doi.org/10.1111/mec.16745 <a href="https://doi.org/10.1111/mec.16745">link</a> <a href="https://shu251.github.io/microeuk-amplicon-survey/">code</a></p></li>
-<li><p>Hammond, S.W,, Lodolo, L., Hu, S.K., &amp; Pasulka, A.L. (2022) Methodological ‘lenses’ influence the characterization of phytoplankton dynamics in a coastal upwelling ecosystem. Environmental Microbiology Reports <a href="https://doi.org/10.1111/1758-2229.13116">link</a></p></li>
-<li><p>Ollison, G.A., Hu, S.K., Hopper, J.V., Stewart, B.P., Smith, J., Beatty, J.L., et al.&nbsp;(2022) Daily dynamics of contrasting spring algal blooms in Santa Monica Bay (central Southern California Bight). Environmental Microbiology 1462-2920.16137. <a href="https://doi.org/10.1111/1462-2920.16137">link</a></p></li>
+<li><p>Hu, S. K., Smith, A. R., Anderson, R. E., Sylva, S. P., Setzer, M., Steadmon, M., Frank, K. L., Chan, E. W., Lim, D. S. S., German, C. R., Breier, J. A., Lang, S. Q., Butterfield, D. A., Fortunato, C. S., Seewald, J. S., &amp; Huber, J. A. (2022). Globally-distributed microbial eukaryotes exhibit endemism at deep-sea hydrothermal vents. Molecular Ecology, 00, 1–19. https://doi.org/10.1111/mec.16745</p></li>
+<li><p>Hammond, S.W,, Lodolo, L., Hu, S.K., &amp; Pasulka, A.L. (<em>In Press</em>) Methodological ‘lenses’ influence the characterization of phytoplankton dynamics in a coastal upwelling ecosystem. Environmental Microbiology Reports</p></li>
+<li><p>Ollison, G.A., Hu, S.K., Hopper, J.V., Stewart, B.P., Smith, J., Beatty, J.L., et al.&nbsp;(2022) Daily dynamics of contrasting spring algal blooms in Santa Monica Bay (central Southern California Bight). Environmental Microbiology 1462-2920.16137.</p></li>
 <li><p>Cohen, N.R., Alexander, H., Krinos, A.I., Hu, S.K., and Lampe, R.H. (2022) Marine Microeukaryote Metatranscriptomics: Sample Processing and Bioinformatic Workflow Recommendations for Ecological Applications. Front Mar Sci 9: 867007. <a href="https://www.frontiersin.org/articles/10.3389/fmars.2022.867007/full">link</a></p></li>
 </ul>
 </section>
 <section id="section-1" class="level1">
 <h1>2021</h1>
 <ul>
-<li><p>Tully, B.J., Buongiorno, J., Cohen, A.B., Cram, J.A., Garber, A.I., Hu, S.K., et al.. The Bioinformatics Virtual Coordination Network: an open-source and interactive learning environment. (2021) Frontiers in Education: STEM Education. <a href="https://www.frontiersin.org/articles/10.3389/feduc.2021.711618/full">link</a></p></li>
+<li><p>Tully, B.J., Buongiorno, J., Cohen, A.B., Cram, J.A., Garber, A.I., Hu, S.K., et al.. The Bioinformatics Virtual Coordination Network: an open-source and interactive learning environment. (2021) Frontiers in Education: STEM Education.</p></li>
 <li><p>Ollison G., Hu, S.K., Mesrop, L.Y., Delong, E. &amp; Caron, D. A. (2021) Come Rain or Shine: Depth Not Season Shapes the Protistan Community at Station ALOHA in the North Pacific Subtropical Gyre. Deep-Sea Research Part II. <a href="https://www.sciencedirect.com/science/article/pii/S0967063721000339">link</a></p></li>
 <li><p>Hu, S.K., Herrera, E.L., Smith, A.R., Pachiadaki, M.G., Edgcomb, V.P., Sylva, S.P., Chan E.W., Seewald, J.S., German, C.R., &amp; Huber, J.A. (2021) Protistan grazing impacts microbial communities and carbon cycling in the deep-sea hydrothermal vent environment. Proc Natl Acad Sci USA <a href="https://www.pnas.org/content/118/29/e2102674118">link</a> <a href="https://shu251.github.io/protist-gordaridge-2021/">code</a></p></li>
 </ul>
@@ -233,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Krinos, A., Hu, S., Cohen, N., and Alexander, H. (2021) EUKulele: Taxonomic annotation of the unsung eukaryotic microbes. JOSS 6: 2817. <a href="https://joss.theoj.org/papers/10.21105/joss.02817">link</a></p></li>
 <li><p>Goordial, J., Hu, S., &amp; Tully, B. (2020). C-DEBI NextGen 2019 Early Career perspective on ‘What’s Next?’: Upcoming Challenges and Opportunities. DOI: 10.31219/osf.io/7xkpq <a href="https://www.darkenergybiosphere.org/publication/c-debi-nextgen-2019-early-career-perspective-on-whats-next-upcoming-challenges-and-opportunities/">link</a></p></li>
 <li><p>Coenen, A.R., Hu, S.K., Luo, E., Muratore, D., and Weitz, J.S. (2020) A Primer for Microbiome Time-Series Analysis. Front Genet 11: 310. <a href="https://www.frontiersin.org/articles/10.3389/fgene.2020.00310/full">link</a></p></li>
-<li><p>Lim, Darlene S.S., Raineault, N.A., Brier, J.A., Chan, E., Chernov, J., Cohen, T., Deans, M., Garcia, A., German, C. R., Hauer, M., Hu, S.K., Huber, J.A., Kane, R., Kobs Nawotniak, S., Lees, D., Lowe, J., Lubetkin, M., Marsh, L., Milesi, V., Miller, M., Miramalek, Z., Saunders, M., Sharif, K., Shields, A., Shock, E., Smith, A.R., and Sylva, S. (2020), SUBSEA 2019 Expedition to the Gorda Ridge, Oceanography 33(1), Supplement Pages 36 – 37. <a href="https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1067&amp;context=eems_fac">link</a></p></li>
+<li><p>Lim, Darlene S.S., Raineault, N.A., Brier, J.A., Chan, E., Chernov, J., Cohen, T., Deans, M., Garcia, A., German, C. R., Hauer, M., Hu, S.K., Huber, J.A., Kane, R., Kobs Nawotniak, S., Lees, D., Lowe, J., Lubetkin, M., Marsh, L., Milesi, V., Miller, M., Miramalek, Z., Saunders, M., Sharif, K., Shields, A., Shock, E., Smith, A.R., and Sylva, S. (2020), SUBSEA 2019 Expedition to the Gorda Ridge, Oceanography 33(1), Supplement Pages 36 – 37.</p></li>
 </ul>
 </section>
 <section id="section-3" class="level1">
@@ -255,8 +240,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="section-5" class="level1">
 <h1>2017</h1>
 <ul>
-<li><p>Liu, Z., Hu, S.K., Campbell, V., Tatters, A.O., Heidelberg, K.B., and Caron, D.A. (2017) Single-cell transcriptomics of small microbial eukaryotes: limitations and potential. The ISME Journal 11: 1282–1285. <a href="https://www.nature.com/articles/ismej2016190">link</a></p></li>
-<li><p>Connell, P.E., Campbell, V., Gellene, A.G., Hu, S.K., and Caron, D.A. (2017) Planktonic food web structure at a coastal time-series site: II. Spatiotemporal variability of microbial trophic activities. Deep Sea Res Part I Oceanogr Res Pap 121: 210–223. <a href="https://doi.org/10.1016/j.dsr.2017.01.007">link</a></p></li>
+<li><p>Liu, Z., Hu, S.K., Campbell, V., Tatters, A.O., Heidelberg, K.B., and Caron, D.A. (2017) Single-cell transcriptomics of small microbial eukaryotes: limitations and potential. The ISME Journal 11: 1282–1285.</p></li>
+<li><p>Connell, P.E., Campbell, V., Gellene, A.G., Hu, S.K., and Caron, D.A. (2017) Planktonic food web structure at a coastal time-series site: II. Spatiotemporal variability of microbial trophic activities. Deep Sea Res Part I Oceanogr Res Pap 121: 210–223.</p></li>
 </ul>
 </section>
 <section id="section-6" class="level1">
@@ -268,8 +253,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="section-7" class="level1">
 <h1>2015</h1>
 <ul>
-<li><p>Hu, S.K., Liu, Z., Lie, A.A.Y., Countway, P.D., Kim, D.Y., Jones, A.C., et al.&nbsp;(2015) Estimating Protistan Diversity Using High-Throughput Sequencing. Journal of Eukaryotic Microbiology 62: 688-693. <a href="https://doi.org/10.1111/jeu.12217">link</a></p></li>
-<li><p>Lie, A.A.Y., Liu, Z., Hu, S.K., Jones, A.C., Kim, D.Y., Countway, P.D., et al.&nbsp;(2014) Investigating Microbial Eukaryotic Diversity from a Global Census: Insights from a Comparison of Pyrotag and Full-Length Sequences of 18S rRNA Genes. Applied and Environmental Microbiology 80: 4363-4373. <a href="https://doi.org/10.1128/AEM.00057-14">link</a></p></li>
+<li><p>Hu, S.K., Liu, Z., Lie, A.A.Y., Countway, P.D., Kim, D.Y., Jones, A.C., et al.&nbsp;(2015) Estimating Protistan Diversity Using High-Throughput Sequencing. Journal of Eukaryotic Microbiology 62: 688–693.</p></li>
+<li><p>Lie, A.A.Y., Liu, Z., Hu, S.K., Jones, A.C., Kim, D.Y., Countway, P.D., et al.&nbsp;(2014) Investigating Microbial Eukaryotic Diversity from a Global Census: Insights from a Comparison of Pyrotag and Full-Length Sequences of 18S rRNA Genes. Applied and Environmental Microbiology 80: 4363–4373.</p></li>
 </ul>
 
 

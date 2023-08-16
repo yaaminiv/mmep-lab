@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Tools</title>
+<title>Lab group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -60,7 +123,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked fullcontent">
@@ -69,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Tools</h1>
+      <h1 class="quarto-secondary-nav-title">Lab group</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -104,10 +166,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./team.html" class="sidebar-item-text sidebar-link">Lab group</a>
+  <a href="./team.html" class="sidebar-item-text sidebar-link active">Lab group</a>
   </div>
 </li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./publications.html" class="sidebar-item-text sidebar-link">Publications</a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Research</a>
@@ -136,14 +202,8 @@ ul.task-list li input[type="checkbox"] {
   <a href="./data-science.html" class="sidebar-item-text sidebar-link">Data science</a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./publications.html" class="sidebar-item-text sidebar-link">Publications</a>
-  </div>
-</li>
       </ul>
   </li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Resources</a>
@@ -154,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./resources.html" class="sidebar-item-text sidebar-link active">Tools</a>
+  <a href="./resources.html" class="sidebar-item-text sidebar-link">resources</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -179,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Tools</h1>
+<h1 class="title d-none d-lg-block">Lab group</h1>
 </div>
 
 
@@ -193,58 +253,67 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="metaomics" class="level1">
-<h1>Meta’omics</h1>
+<section id="members" class="level2">
+<h2 class="anchored" data-anchor-id="members">Members</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/profile-slack-shu.jpg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>Dr.&nbsp;Sarah Hu is currently a Postdoctoral Investigator at Woods Hole Oceanographic Institution and will be starting as an Assistant Professor in the Department of Oceanography at Texas A&amp;M in 2023. Her research centers around the <em>ecological significance of single-celled microbial eukaryotes</em> in marine environments. She completed her Ph.D.&nbsp;at the University of Southern California, which worked to use time-series data to explore the <em>temporal and spatial dynamics</em> of microbial eukaryotic communities (Advisor: Dr.&nbsp;David Caron). Sarah joined Woods Hole Oceanographic Institution in 2018 as a Postdoc Fellow to investigate the ecology of <em>deep-sea microorganisms found at hydrothermal vents</em> (Advisor: Dr.&nbsp;Julie Huber). Here at WHOI, she characterizes the key ‘boxes’ and ‘arrows’ that make up the microbial <em>food web</em> in the deep sea, with a particular interest in protistan grazing on vent microorganisms. Sarah’s research questions typically involve oceanic field work, molecular biology, microscopy, and data science.</p>
+<p>Sarah is also committed to the next generation of scientists - this includes creating a more inclusive space in the field and lab, and ensuring students have opportunities to learn skills they want and address research questions that spark their interests! Alongside research, Sarah teaches methods in computational biology, specifically bioinformatics, the R programming language, and data visualization (See BVCN, Software Carpentry, &amp; other R resources.</p>
+<section id="contact-follow" class="level3">
+<h3 class="anchored" data-anchor-id="contact-follow">contact &amp; follow</h3>
+<p>skhu [at] tamu.edu sarah.hu [at] whoi.edu</p>
+<p><a href="products/cv.pdf">download my cv</a></p>
+<p><strong>Assistant Professor</strong> | Texas A&amp;M Department of Oceanography | 2023 - present</p>
+<p><strong>Postdoc</strong> | Woods Hole Oceanographic Institution | 2018 - 2022</p>
+<p><strong>PhD 2018</strong> | University of Southern California | Los Angeles, CA</p>
+<p><strong>BS 2011</strong> | University of Washington | Seattle, WA</p>
+</section>
+</section>
+<section id="join-the-lab" class="level2">
+<h2 class="anchored" data-anchor-id="join-the-lab">Join the lab</h2>
+<p>Please contact me (sarah.hu[at]whoi.edu) if you are interested in working together. While I encourage you to explore my past &amp; on-going research projects, please share what research questions you are excited to address.</p>
+<p>I am recruiting PhD students for Fall 2023. <a href="">How do I apply?</a></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="fu">c</span>(<span class="st">"images/IMG_3580.jpg"</span>,<span class="st">"images/IMG_3412.jpg"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="images/IMG_3580.jpg" class="img-fluid" style="width:35.0%"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="images/IMG_3412.jpg" class="img-fluid" style="width:35.0%"></p>
+</div>
+</div>
+<section id="phd-opportunities" class="level3">
+<h3 class="anchored" data-anchor-id="phd-opportunities">PhD opportunities</h3>
 <ul>
-<li><p><a href="https://github.com/alexanderlabwhoi/EukHeist">EUKHeist</a> &amp; [preprint] (https://www.biorxiv.org/content/10.1101/2021.07.25.453713v1)</p></li>
-<li><p><a href="https://eukulele.readthedocs.io/en/latest/">EUKulele</a></p></li>
-<li><p><a href="https://github.com/shu251/SPOT_metatranscriptome">Code</a> from <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1462-2920.14259">a metatranscriptomic survey of protistan trophic strategies</a></p>
-<ul>
-<li><a href="https://zenodo.org/record/1476236#.XRdsuC2ZNTY">EukZoo</a> database, an aquatic protistan protein database for meta-omics studies</li>
-</ul></li>
+<li><p><a href="https://ocean.tamu.edu/academics/graduate-programs/index.html">Texas A&amp;M Graduate program</a> | Apply by January 1</p></li>
+<li><p><a href="https://www.nsfgrfp.org">NSF GRFP</a> | Deadline: mid-October</p></li>
 </ul>
 </section>
-<section id="amplicon-sequence-analysis" class="level1">
-<h1>Amplicon sequence analysis</h1>
+<section id="undergraduate-opportunities" class="level3">
+<h3 class="anchored" data-anchor-id="undergraduate-opportunities">Undergraduate opportunities</h3>
 <ul>
-<li>I am currently working on streamlined pipelines to determine Amplicon Sequence Variants (ASVs) or Operational Taxonomic Units (OTUs) using <strong>QIIME2</strong> or <strong>DADA2</strong> in R for use in environmental microbial ecology.</li>
+<li><a href="https://oceanography.tamu.edu/academics/reu/index.html">REU program at TAMU</a> | Deadline: February</li>
 </ul>
 </section>
-<section id="data-management" class="level1">
-<h1>Data management</h1>
+<section id="postdoctoral-opportunities" class="level3">
+<h3 class="anchored" data-anchor-id="postdoctoral-opportunities">Postdoctoral opportunities</h3>
 <ul>
-<li><a href="https://alexanderlabwhoi.github.io/post/anaconda-r-sarah/">Keeping my R life organized</a> details how I set up R with anaconda on my computer. Introduction to managing projects with conda environments. Includes description of R, RStudio, and IRKernel (jupyter notebooks).</li>
+<li><p><a href="https://www.nsf.gov/pubs/2021/nsf21538/nsf21538.htm">NSF Ocean Sciences Postdoctoral Research Fellowships</a> | Deadline: May &amp; November</p></li>
+<li><p><a href="https://ccomp-stc.org/education-diversity/graduate-students-and-postdoctoral-researchers/">C-COMP Postdoctoral Fellows</a> | Deadline: mid-April</p></li>
+<li><p><a href="https://www.simonsfoundation.org/grant/simons-postdoctoral-fellowships-in-marine-microbial-ecology/">Simons Foundation Postdoctoral Fellowship in Marine Microbial Ecology</a> | Deadline: mid-May</p></li>
 </ul>
-</section>
-<section id="introduction-to-r" class="level1">
-<h1>Introduction to R</h1>
-<ul>
-<li><p><a href="https://shu251.github.io/r-ventures/#introduction">R code examples and tutorials</a></p></li>
-<li><p><a href="https://github.com/shu251/PreliminaryFigures_V4_tagseq">Generating figures</a> from HTS tag-sequencing data - OTU or ASV table as input</p></li>
-<li><p>Learning R with <a href="https://biovcnet.github.io">BVCN</a></p></li>
-</ul>
-</section>
-<section id="practical-ecology" class="level1">
-<h1>Practical Ecology</h1>
-<ul>
-<li>Resources for time-series analysis: <a href="https://github.com/shu251/18Sdiversity_diel">code and analyses</a> from <a href="https://www.frontiersin.org/articles/10.3389/fmars.2018.00351/full">A Hard Day’s Night</a></li>
-</ul>
-<section id="introduction-to-tag-sequencing" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-to-tag-sequencing">Introduction to tag-sequencing</h2>
-<ul>
-<li><a href="https://github.com/shu251/V4_tagsequencing_18Sdiversity_q1">QIIME1</a> or</li>
-<li><a href="https://github.com/shu251/qiime2_ASVworkflow_v8">QIIME2</a>.</li>
-<li>Also see the <a href="https://biovcnet.github.io">BVCN</a> resources for amplicon sequencing</li>
-</ul>
-</section>
-<section id="building-reproducible-pipeline-for-amplicon-sequence-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="building-reproducible-pipeline-for-amplicon-sequence-analysis">Building reproducible pipeline for amplicon sequence analysis</h2>
-<ul>
-<li>Implementing a snakemake workflow to make tag-sequencing pipeline more robust <a href="https://github.com/shu251/tagseq-qiime2-snakemake">HERE</a>
-<ul>
-<li><a href="https://github.com/shu251/db-build-microeuks">Building/prepping</a> a database for use in QIIME2</li>
-</ul></li>
-</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="fu">c</span>(<span class="st">"images/IMG-4423.JPG"</span>, <span class="st">"images/jason-van.jpg"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="images/IMG-4423.JPG" class="img-fluid" style="width:35.0%"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="images/jason-van.jpg" class="img-fluid" style="width:35.0%"></p>
+</div>
+</div>
 
 
 </section>

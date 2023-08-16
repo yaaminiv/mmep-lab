@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Tools</title>
+<title>Data science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -60,7 +60,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked fullcontent">
@@ -69,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Tools</h1>
+      <h1 class="quarto-secondary-nav-title">Data science</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -107,7 +106,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="./team.html" class="sidebar-item-text sidebar-link">Lab group</a>
   </div>
 </li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./publications.html" class="sidebar-item-text sidebar-link">Publications</a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Research</a>
@@ -133,17 +136,11 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data-science.html" class="sidebar-item-text sidebar-link">Data science</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./publications.html" class="sidebar-item-text sidebar-link">Publications</a>
+  <a href="./data-science.html" class="sidebar-item-text sidebar-link active">Data science</a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Resources</a>
@@ -154,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./resources.html" class="sidebar-item-text sidebar-link active">Tools</a>
+  <a href="./resources.html" class="sidebar-item-text sidebar-link">resources</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -179,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Tools</h1>
+<h1 class="title d-none d-lg-block">Data science</h1>
 </div>
 
 
@@ -193,61 +190,20 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="metaomics" class="level1">
-<h1>Meta’omics</h1>
+<p>Despite their ecological importance, efforts to catalog protistan physiological abilities and trophic strategies lag behind those of their prokaryotic counterparts. The interpretation of large sequence datasets relies on the knowledge gleaned from culture-based transcriptome studies, new developments in genetic probing of microorganisms, and single-cell sequencing. It is imperative that we build reproducible pipelines and infrastructure to keep up with growing sequence information.</p>
+<p>My two data science related goals are to (1) streamline the methods to link genotype and phenotype for environmentally-relevant microbial eukaryotes and (2) create an engaging environment to teach the next generation of scholars methods in computational approaches.</p>
+<p>Contact me if you are interested in building up a ‘data science community’.</p>
+<section id="reproducible-pipelines-bioinformatic-tools" class="level2">
+<h2 class="anchored" data-anchor-id="reproducible-pipelines-bioinformatic-tools">Reproducible pipelines &amp; Bioinformatic tools</h2>
 <ul>
-<li><p><a href="https://github.com/alexanderlabwhoi/EukHeist">EUKHeist</a> &amp; [preprint] (https://www.biorxiv.org/content/10.1101/2021.07.25.453713v1)</p></li>
+<li><p><a href="https://github.com/alexanderlabwhoi/EukHeist">EUKHeist</a> &amp; <a href="https://www.biorxiv.org/content/10.1101/2021.07.25.453713v1">preprint</a></p></li>
 <li><p><a href="https://eukulele.readthedocs.io/en/latest/">EUKulele</a></p></li>
-<li><p><a href="https://github.com/shu251/SPOT_metatranscriptome">Code</a> from <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1462-2920.14259">a metatranscriptomic survey of protistan trophic strategies</a></p>
-<ul>
-<li><a href="https://zenodo.org/record/1476236#.XRdsuC2ZNTY">EukZoo</a> database, an aquatic protistan protein database for meta-omics studies</li>
-</ul></li>
-</ul>
-</section>
-<section id="amplicon-sequence-analysis" class="level1">
-<h1>Amplicon sequence analysis</h1>
-<ul>
-<li>I am currently working on streamlined pipelines to determine Amplicon Sequence Variants (ASVs) or Operational Taxonomic Units (OTUs) using <strong>QIIME2</strong> or <strong>DADA2</strong> in R for use in environmental microbial ecology.</li>
-</ul>
-</section>
-<section id="data-management" class="level1">
-<h1>Data management</h1>
-<ul>
-<li><a href="https://alexanderlabwhoi.github.io/post/anaconda-r-sarah/">Keeping my R life organized</a> details how I set up R with anaconda on my computer. Introduction to managing projects with conda environments. Includes description of R, RStudio, and IRKernel (jupyter notebooks).</li>
-</ul>
-</section>
-<section id="introduction-to-r" class="level1">
-<h1>Introduction to R</h1>
-<ul>
-<li><p><a href="https://shu251.github.io/r-ventures/#introduction">R code examples and tutorials</a></p></li>
-<li><p><a href="https://github.com/shu251/PreliminaryFigures_V4_tagseq">Generating figures</a> from HTS tag-sequencing data - OTU or ASV table as input</p></li>
-<li><p>Learning R with <a href="https://biovcnet.github.io">BVCN</a></p></li>
-</ul>
-</section>
-<section id="practical-ecology" class="level1">
-<h1>Practical Ecology</h1>
-<ul>
-<li>Resources for time-series analysis: <a href="https://github.com/shu251/18Sdiversity_diel">code and analyses</a> from <a href="https://www.frontiersin.org/articles/10.3389/fmars.2018.00351/full">A Hard Day’s Night</a></li>
-</ul>
-<section id="introduction-to-tag-sequencing" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-to-tag-sequencing">Introduction to tag-sequencing</h2>
-<ul>
-<li><a href="https://github.com/shu251/V4_tagsequencing_18Sdiversity_q1">QIIME1</a> or</li>
-<li><a href="https://github.com/shu251/qiime2_ASVworkflow_v8">QIIME2</a>.</li>
-<li>Also see the <a href="https://biovcnet.github.io">BVCN</a> resources for amplicon sequencing</li>
-</ul>
-</section>
-<section id="building-reproducible-pipeline-for-amplicon-sequence-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="building-reproducible-pipeline-for-amplicon-sequence-analysis">Building reproducible pipeline for amplicon sequence analysis</h2>
-<ul>
-<li>Implementing a snakemake workflow to make tag-sequencing pipeline more robust <a href="https://github.com/shu251/tagseq-qiime2-snakemake">HERE</a>
-<ul>
-<li><a href="https://github.com/shu251/db-build-microeuks">Building/prepping</a> a database for use in QIIME2</li>
-</ul></li>
+<li><p><a href="https://github.com/shu251/tagseq-qiime2-snakemake">Tag-sequencing work flows</a></p></li>
+<li><p><a href="https://github.com/shu251/Extract_microeukrRNA_from_metagenome">Extracting microbial eukaryotic information from metagenomes</a></p></li>
+<li><p><a href="https://github.com/shu251/analyzing_microbiome_timeseries">Analysing microbiome time-series</a></p></li>
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -1,5 +1,5 @@
 ---
-title: "Main themes"
+title: "Research themes"
 format: html
 editor: visual
 ---
@@ -10,21 +10,30 @@ Single-celled microbial eukaryotes *or protists* are critical team players in mo
 
 ### Three core research initiatives
 
-::: column-margin
-![](images/00_Trimyema.png)
-:::
+<div style= "float:left">
+```{r, echo=FALSE, out.width= "200px", out.extra='style="float:left; padding:5px"'}
+knitr::include_graphics("images/00_Trimyema.png")
+```
+</div>
 
-From coastal environments to deep-sea habitats, protistan community structure (diversity and composition of species) and nutritional strategies are reflections of their environment. While protists form a central theme in my work, my goal is to make sense of how microorganisms fuel and facilitate the processes sustaining our planet. Through the study of microbial eukaryotes, we learn how diverse nutritional strategies of protists are tied to season, time of day, and availability of resources. My main goal is to understand how protistan communities interact with other microorganisms and their environment to support marine ecosystems.
-::: column-margin
-![](images/00_Acantharia.png)
-:::
-Three core research themes:
+
+From coastal environments to deep-sea habitats, protistan community structure (diversity and composition of species) and nutritional strategies are reflections of their environment. While protists form a central theme in my work, my goal is to make sense of how microorganisms fuel and facilitate the processes sustaining our planet. Through the study of microbial eukaryotes, we learn how diverse nutritional strategies of protists are tied to season, time of day, and availability of resources. My main goal is to understand how protistan communities interact with other microorganisms and their environment to support marine ecosystems. 
+
+<div style= "float:right">
+```{r, echo=FALSE, out.width= "200px", out.extra='style="float:left; padding:5px"'}
+knitr::include_graphics("images/00_Acantharia.png")
+```
+</div>
+
 
 -   **Meta'omics to resolve taxon-specific ecological roles** - Leverage temporal & spatial scales to link genotype & phenotype in natural protistan assemblages.
 
 -   **Trophic interactions at hydrothermal vent food webs** - Heterotrophic microbial eukaryotes associated with deep-sea vents play an important role in deep-sea carbon cycling.
 
--   **Data science** - Computational biology is a wonderful opportunity for interdisciplinary collaborations. In addition to using data science, I aim to build a "data science community"
-::: column-margin
-![](images/00_Ehux.png)
-:::
+-   **Data science** - Computational biology is a wonderful opportunity for interdisciplinary collaborations. In addition to using data science, I aim to build a "data science community" 
+
+<div style= "float:right">
+```{r, echo=FALSE, out.width= "200px", out.extra='style="float:left; padding:5px"'}
+knitr::include_graphics("images/00_Ehux.png")
+```
+</div>
