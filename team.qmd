@@ -1,0 +1,92 @@
+---
+title: "Lab members"
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    toc-location: right
+    page-layout: full
+editor: visual
+---
+
+![On board the RV Thomas G Thompson for PROTATAX23. July 2023](images/TN420-Sarah-6.jpg){fig-align="left" width="400"}
+
+::: {style="float:left"}
+```{r, echo=FALSE, out.width= "400px", out.extra='style="float:left; padding:30px"'}
+knitr::include_graphics("images/profile-slack-shu.jpg")
+```
+:::
+
+#### Dr. Sarah Hu
+
+##### **Assistant Professor**
+
+skhu \[at\] tamu.edu\
+[cv](products/cv.pdf)\
+she/her
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+------------------------------------------------------------------------
+
+::: {style="float:left"}
+```{r, echo=FALSE, out.width= "400px", out.extra='style="float:left; padding:30px"'}
+knitr::include_graphics("images/IMG_3888.jpg")
+```
+:::
+
+#### Alexis Adams
+
+##### **PhD student**
+
+alexis98adams \[at\] tamu.edu\
+she/her
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+------------------------------------------------------------------------
+
+::: {style="float:left"}
+```{r, echo=FALSE, out.width= "400px", out.extra='style="float:left; padding:30px"'}
+knitr::include_graphics("images/20191215_094405.jpg")
+```
+:::
+
+#### Kayla Nedd
+
+##### **PhD student**
+
+knedd \[at\] tamu.edu\
+she/her
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+------------------------------------------------------------------------
+
+## Join us
+
+Please contact me (skh\[at\]tamu.edu) if you are interested in working together, I always looking for enthusiastic PhD students and undergraduates. While I encourage you to explore my past & on-going research projects, please share what research questions you are excited to address.
+
+*I am not recruiting for Fall 2024* - Check back for opportunities to join the lab for Fall 2025.
+
+#### PhD opportunities
+
+[How do I apply?](https://ocean.tamu.edu/graduate-students/ms-phd-oceanography/ms-phd-information/index.html)\
+
+-   [Texas A&M Graduate program](https://ocean.tamu.edu/academics/graduate-programs/index.html) \| Apply by January 1
+
+-   [NSF GRFP](https://www.nsfgrfp.org) \| Deadline: mid-October
+
+#### Undergraduate opportunities
+
+- If you are a current TAMU undergraduate, contact me directly. Our group has openings for undergraduate positions and opportunities for undergrads to explore research questions.
+
+-   [REU program at TAMU](https://oceanography.tamu.edu/academics/reu/index.html) \| Deadline: February
+
+#### Postdoctoral opportunities
+
+-   [NSF Ocean Sciences Postdoctoral Research Fellowships](https://www.nsf.gov/pubs/2021/nsf21538/nsf21538.htm) \| Deadline: May & November
+
+-   [C-COMP Postdoctoral Fellows](https://ccomp-stc.org/education-diversity/graduate-students-and-postdoctoral-researchers/) \| Deadline: mid-April
+
+-   [Simons Foundation Postdoctoral Fellowship in Marine Microbial Ecology](https://www.simonsfoundation.org/grant/simons-postdoctoral-fellowships-in-marine-microbial-ecology/) \| Deadline: mid-May
