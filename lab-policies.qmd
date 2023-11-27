@@ -48,3 +48,11 @@ Prioritize your health and well-being.
 *Schedule*: I do expect to see you around! Our jobs are very flexible with respect to timing, which is great! This also means we can often overwork. Please prioritize your health and well-being when it comes to scheduling your work week. I am comfortable with you working away from your office on campus, but sharing your plans to hold a regular schedule would be preferred. This is mainly because I may want to schedule a meeting with you, quickly touch base, or send you a message when you are working (instead of when you are not working/unavailable). Similarly, if you will be away - some heads up is helpful for everyone.
 
 *Lab meeting*: I expect all lab members to attend lab meetings when possible. Absences are completely fine, as long as they are planned/mentioned ahead of time or necessary. During each meeting, I will check-in with everyone to see how their previous week went and what is planned for the upcoming week. This is a great opportunity to check-in with your peers, run ideas by the group, or discuss topics in the field. Themed lab meetings are welcome and may include: journal club paper discussion or discussion of presented hypotheses, demo of technical skill, invited guest speakers, practice talk for an upcoming presentation, or preliminary presentation of new data.
+
+We will also hold **Code Club** as often as possible. This is a time to learn computational skills from each other and share what you are working on. We will review coding methods applicable to bioinformatics, the R programming language, and using HPC resources. 
+
+## On-boarding
+
+When you join the lab, get access to **Slack** and the **shared Google Drive** space (use your TAMU email address). This is where the majority of communication and document sharing will go. We even have a checklist page in the Google drive to make sure you've sorted all the appropriate paperwork and training before you step into the lab.
+
+*Computational resources*: We have shared storage on the TAMU HPRC and documentation on how to use the HPRC, access shared data resources, and where to go when you need help. 
