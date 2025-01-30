@@ -1,0 +1,205 @@
+/*-- scss:defaults --*/
+
+$theme: "sarah-custom" !default;
+
+//
+// Color system
+//
+
+$white:    #f4f1de !default; //minty: #fff white coloee
+$orange:   #e07a5f !default;
+$darkblue: #3d405b !default;
+$green:    #81b29a !default;
+$gold:     #f2cc8f !default;
+$black:    #000 !default;
+
+
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #ff7851 !default;
+$yellow:  #ffce67 !default;
+$teal:    #20c997 !default;
+$cyan:    #6cc3d5 !default;
+
+$secondary:     #e07a5f !default; //minty: #f3969a
+$success:       #81b29a !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $darkblue !default;
+$dark:          $secondary !default;
+
+$min-contrast-ratio:   2.4 !default;
+
+// Body
+
+$body-color:                $darkblue !default;
+$color-contrast-dark:       $darkblue !default;
+
+// Components
+
+$border-radius:               .5rem !default;
+$border-radius-lg:            .7rem !default;
+$border-radius-sm:            .5rem !default;
+
+// Fonts
+
+// stylelint-disable-next-line value-keyword-case
+$headings-font-family:        Montserrat, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$headings-color:              $darkblue !default;  //set as dark purple background from hu logo
+
+// Tables
+
+$table-border-color:          rgba(0, 0, 0, .05) !default;
+$table-bg-scale:              0 !default;
+
+// Dropdowns
+
+$dropdown-link-hover-color:         $darkblue !default;
+$dropdown-link-hover-bg:            $green !default;
+$dropdown-bg:                       $white !default;
+// Navbar
+$navvar-bg:                         $green !default;
+$navbar-font-size:                  2rem !default;
+$navbar-dark-color:                 rgba($darkblue, .4) !default;
+$navbar-dark-hover-color:           $green !default;
+$navbar-light-color:                rgba($green, .3) !default;
+$navbar-light-hover-color:          $green !default;
+$navbar-light-active-color:         $green !default;
+$navbar-light-disabled-color:       rgba($green, .1) !default;
+
+
+// TOC
+$sidebar-bg:                        $gold !default;
+$sidebar-hl:                        $green !default;
+$toc-color:                         $green !default;
+$toc-font-size:                     1rem !default;
+$toc-link-hover-color:              $gold !default;
+$toc-link-hover-bg:                 $gold !default;
+$toc-body-bg:                       $darkblue !default;
+$toc-color-contrast-dark:       $darkblue !default;
+
+// Pagination
+
+$pagination-color:                  $white !default;
+$pagination-bg:                     $gold !default;
+$pagination-border-color:           $gold !default;
+$pagination-hover-color:            $gold !default;
+$pagination-hover-bg:               $darkblue !default;
+$pagination-hover-border-color:     $pagination-hover-bg !default;
+$pagination-active-bg:              $darkblue !default;
+$pagination-active-border-color:    $pagination-active-bg !default;
+$pagination-disabled-color:         $white !default;
+$pagination-disabled-bg:            $darkblue !default;
+$pagination-disabled-border-color:  $pagination-disabled-bg !default;
+
+// Alerts
+
+$alert-color-scale:                 0% !default;
+$alert-bg-scale:                    0 !default;
+
+// Breadcrumbs
+
+$breadcrumb-padding-y:              .375rem !default;
+$breadcrumb-padding-x:              .75rem !default;
+$breadcrumb-bg:                     $darkblue !default;
+$breadcrumb-divider-color:          $gold !default;
+$breadcrumb-active-color:           $green !default;
+$breadcrumb-border-radius:          .25rem !default;
+
+
+
+/*-- scss:rules --*/
+
+
+// Variables
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" !default;
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
+// Navbar
+
+.navbar {
+  font-family: $headings-font-family;
+}
+
+.bg-dark {
+  background-color: $gold !important;
+}
+
+.border-dark {
+  border-color: $orange !important;
+}
+
+// Buttons
+
+.btn {
+  font-family: $headings-font-family;
+}
+
+// Forms
+
+legend {
+  font-family: $headings-font-family;
+}
+
+// Navs
+
+.dropdown-menu {
+  font-family: $font-family-sans-serif;
+}
+
+.breadcrumb {
+  a {
+    color: $navbar-dark-color;
+  }
+
+  a:hover {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+// Indicators
+
+.alert {
+  a,
+  .alert-link {
+    color: $white;
+  }
+
+  &-light {
+
+    &,
+    a:not(.btn),
+    .alert-link {
+      color: $body-color;
+    }
+  }
+}
+
+.badge {
+  color: $white;
+
+  &.bg-light {
+    color: $gray-700;
+  }
+}
+
+// Containers
+
+.card,
+.list-group-item {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: inherit;
+  }
+}
+

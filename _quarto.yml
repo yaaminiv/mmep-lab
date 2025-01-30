@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd # home page
+    - team.qmd # lab members
+    - projects.qmd #research --> separate into sections
+    - deepsea-vents.qmd
+    - time-series.qmd
+    - data-science.qmd
+    - publications.qmd
+    - lab-policies.qmd
+#margin-header: |
+ # ![](/images/logo-hu.png)
+  
+website:
+  navbar:
+    background: "#f4f1de"
+    foreground: "#3d405b"
+    pinned: true
+    search: true
+    tools:
+      - icon: github
+        href: https://github.com/shu251
+      - icon: instagram
+        href: https://www.instagram.com/microhukaryote/
+      - icon: share
+        href: https://scholar.google.com/citations?user=9CI91CMAAAAJ&hl=en     
+    right:
+      - index.qmd
+      - text: "about"
+        menu:
+          - team.qmd # people
+          - lab-policies.qmd
+      - text: "research"
+        menu:
+          - projects.qmd #overview of research themes
+          - deepsea-vents.qmd
+          - time-series.qmd
+          - data-science.qmd
+          - publications.qmd
+    page-navigation: true
+
+format:
+  html:
+    theme: 
+      - custom.scss
+    format: revealjs
+    css: styles.css
