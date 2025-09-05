@@ -3,14 +3,15 @@ project:
   output-dir: docs
   render:
     - index.qmd # home page
-    # - team.qmd # lab members
+    - team.qmd # lab members
     # - lab-policies.qmd #code of conduct
+    # - lab-notebooks.qmd #online lab notebooks
+    # - resources.qmd #misc important things
     # - overview.qmd #research --> separate into sections
     # - env-on-phen.qmd
     # - adaptation-plasticity.qmd
     # - reproduction.qmd
-    # - publications.qmd #teaching philosophy and courses taught
-    # - lab-notebooks.qmd #online lab notebooks
+    - publications.qmd
     # - philosophy.qmd #teaching philosophy and courses taught
     # - RIE2.qmd
   
@@ -27,10 +28,11 @@ website:
         href: https://scholar.google.com/citations?user=x9WA39wAAAAJ&hl=en&oi=sra    
     right:
       - index.qmd
-      - text: "about"
+      - text: "About"
         menu:
           - team.qmd # people
           - lab-policies.qmd #code of conduct
+          - lab-notebooks.qmd #online lab notebooks
           - resources.qmd #misc important things
       - text: "research"
         menu:
@@ -38,7 +40,7 @@ website:
           - env-on-phen.qmd
           - adaptation-plasticity.qmd
           - reproduction.qmd
-          - lab-notebooks.qmd #online lab notebooks
+          - publications.qmd
       - text: "teaching"
         menu:
           - philosophy.qmd #teaching philosophy and courses taught
