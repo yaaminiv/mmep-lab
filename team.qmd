@@ -9,149 +9,34 @@ format:
 editor: visual
 ---
 
-![On board the RV Thomas G Thompson for PROTATAX23. July 2023](images/TN420-Sarah-6.jpg){fig-align="left" width="350"}
-
 ::: {style="float:left"}
 ```{r, echo=FALSE, out.width= "350px", out.extra='style="float:left; padding:20px"'}
-knitr::include_graphics("images/profile-slack-shu.jpg")
+knitr::include_graphics("images/Venkataraman_Headshot_Cropped.tif")
 ```
 :::
 
-#### Dr. Sarah Hu
+# Dr. Yaamini R. Venkataraman
 
-##### **Assistant Professor**
+## **Assistant Professor of Biology**
 
-skhu \[at\] tamu.edu\
-[cv](products/cv.pdf)\
+[yvenkataraman\@scu.edu](mailto:yvenkataraman@scu.edu)
+ORCID
+Google Scholar
+[cv](products/Venkataraman_CV.pdf)\
 she/her
 
-I am a microbial ecologists devoted to figuring out what all the weird marine microeukaryotes are doing in the ocean. Our work combines field expeditions, wet-lab experiments, molecular methods, and computational biology to ask address questions about the ecological roles microorganisms play in the ecosystem.
+something about science
 
-I'm most excited about research in the deep-sea, especially biologically rich habitats like hydrothermal vents. I love teaching and mentoring about all things biological oceanography, coding, and more! This lab is built on a shared love for the natural world.
 
 <br><br>
 
-::: {style="float:left"}
-```{r, echo=FALSE, out.width= "375px", out.extra='style="float:left; padding:30px"'}
-knitr::include_graphics("images/IMG_3888.jpg")
-```
-:::
+# Join the lab!
 
-#### Alexis Adams
+I am not recruiting any students during Fall 2025. If you are eligible to take upper-division courses and are interested in the marine biology, physiology, and/or molecular biology, please take Project Lab (BIOL 191) Winter 2026! If you cannot take BIOL 191, [email me]() to discuss potential student opportunities.
 
-##### **PhD student**
+There are several university fellowships for students who want to conduct research in the summer. If you'd like to do research in MMEP Lab this summer, please email Dr. Venkataraman by January 15, 2026.
 
-My name is Alexis and I am a PhD student here at Texas A&M! With a passion for understanding how ecological interactions impact the world around us I have dedicated myself to studying unicellular eukaryotes and their important role within the deep ocean. When I'm not working you can find me reading or playing my piano. I believe science should be a safe space for all and I am excited to explore the fascinating world of microbes!
-
-alexis98adams \[at\] tamu.edu\
-she/her
-
-<br><br>
+- [Single Portal for Undergraduate Research (SPUR)](https://www.scu.edu/provost/research/student-funding-opportunities/scuspur/): Single application portal for several SCU summer research fellowships
+- [REAL Program](https://www.scu.edu/real/): Stipends for College of Arts and Sciences student research, internships, or creative projects
 
 
-::: {style="float:left"}
-```{r, echo=FALSE, out.width= "375px", out.extra='style="float:left; padding:30px"'}
-knitr::include_graphics("images/20191215_094405.jpg")
-```
-:::
-
-#### Kayla Nedd
-
-##### **PhD student**
-
-knedd \[at\] tamu.edu\
-she/her
-
-My name is Kayla Nedd. I joined the Hu lab in the summer of 2023 as a PhD student. My research interests are microbial ecology in extreme environments. I would like to understand what allows these microbes to be so well equipped to handle the intense conditions of the deep sea. Last summer, I participated in my first research cruise to Axial Seamount, an underwater volcano, to study protists in deep sea hydrothermal vents. I am thrilled to delve further into my research and better understand this truly magnificent aspect of our planet.
-
-<br><br>
-
-::: {style="float:left"}
-```{r, echo=FALSE, out.width= "390px", out.extra='style="float:left; padding:30px"'}
-knitr::include_graphics("images/Abby.jpeg")
-```
-:::
-
-#### Abby Day
-
-##### **Undergraduate Research Assistant**
-
-she/her
-
-Abby is an Environmental Geoscience major minoring in Anthropology and GIST. She is extremely interested in the world around us, both the past and what is currently going on today. As an Environmental Geoscience major minoring in Anthropology, she hopes to pursue a career that can combine both of these fields. In the past, Abby did research on microorganisms and what their distribution in the water column could tell us about past climates. That study has continued to pique her interest and she is pursing similar work in the Hu lab.
-
-<br><br>
-
-::: {style="float:left"}
-```{r, echo=FALSE, out.width= "400px", out.extra='style="float:left; padding:30px"'}
-knitr::include_graphics("images/lerma.jpeg")
-```
-:::
-
-#### Madeleine Lerma
-
-##### **Undergraduate Research Assistant**
-
-she/her
-
-Madeleine is a Zoology major and ECCB minor from Corpus Christi, Texas. After graduating from Texas A&M University, she hopes to attend graduate school to become a marine biologist and pursue a career in research. She is undecided about the specialty she may choose, but is passionate about marine ecosystems. In her free time, she enjoys reading, listening to music, and exploring nature.
-
-<br><br>
-
-::: {style="float:left"}
-```{r, echo=FALSE, out.width= "400px", out.extra='style="float:left; padding:30px"'}
-knitr::include_graphics("images/meagan.jpg")
-```
-:::
-
-#### Meagan Sonsel
-
-##### **Undergraduate Research Assistant**
-
-she/her
-
-Meagan Sonsel is an Environmental Geoscience major with a concentration in biosphere. She is extremely excited to work in the lab and discover more about microbial eukaryotes in the deep sea.
-
-<br><br>
-
-::: {style="float:left"}
-```{r, echo=FALSE, out.width= "400px", out.extra='style="float:left; padding:30px"'}
-knitr::include_graphics("images/siddarth.jpg")
-```
-:::
-
-#### Siddarth Seshampally
-
-##### **Undergraduate Research Assistant**
-
-Siddharth is a freshman at Texas A&M University, class of 2027, majoring in Oceanography. Playing football (not American football) has been a passion of his and he hopes to play for the A&M team soon. Siddarth has a deep curiosity for the mysteries of the ocean, and his goal is to contribute to the progress of this field. Eager to explore the wonders of marine science and dedicated to making a positive impact, he looks forward to the exciting journey that lies ahead.
-
-<br><br>
-
-## Join us
-
-Please contact me (skh\[at\]tamu.edu) if you are interested in working together. **I do not currently have any open positions for Masters, PhD, or Postdoctoral positions**. Watch this space for future opportunities.
-
-#### PhD opportunities
-
-[How do I apply?](https://ocean.tamu.edu/graduate-students/ms-phd-oceanography/ms-phd-information/index.html)\
-
--   [Texas A&M Graduate program](https://ocean.tamu.edu/academics/graduate-programs/index.html) \| Apply before January 1
-
--   [NSF GRFP](https://www.nsfgrfp.org) \| Deadline: mid-October
-
--   [Simons Graduate Fellowship in Ecology & Evolution](https://www.simonsfoundation.org/grant/simons-graduate-fellowships-in-ecology-and-evolution/) \| Deadline: July
-
-#### Undergraduate opportunities
-
--   If you are a current TAMU undergraduate, contact me directly for the potential to join.
-
--   [REU program at TAMU](https://oceanography.tamu.edu/academics/reu/index.html) \| Deadline: February
-
-#### Postdoctoral opportunities
-
--   [NSF Ocean Sciences Postdoctoral Research Fellowships](https://www.nsf.gov/pubs/2021/nsf21538/nsf21538.htm) \| Deadline: May & November
-
--   [C-COMP Postdoctoral Fellows](https://ccomp-stc.org/education-diversity/graduate-students-and-postdoctoral-researchers/) \| Deadline: mid-April
-
--   [Simons Foundation Postdoctoral Fellowship in Marine Microbial Ecology](https://www.simonsfoundation.org/grant/simons-postdoctoral-fellowships-in-marine-microbial-ecology/) \| Deadline: mid-May
