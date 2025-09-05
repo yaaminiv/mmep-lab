@@ -1,21 +1,13 @@
 ---
-title: ""
+title: "MMEP Lab"
 format: 
   html:
     toc: false
 editor: visual
 ---
 
+# Welcome to the **Marine Molecular Ecophysiology Lab (MMEP Lab)** in the Biology Department at Santa Clara University!
+
 ![](images/banner-images.jpg){fig-align="center" width="3000"}
 
-Welcome to the **Marine Molecular Ecophysiology Lab (MMEP Lab)** in the Biology Department at Santa Clara University!
-
-With climate change rapidly impacting ecosystems, phenotypic plasticity that operates on timescales quicker than evolutionary adaptation is crucial for species persistence. We investigate marine invertebrate resilience to climate change by interrogating phenotypic plasticity. We are interested in how and why plasticity is observed, and how a plastic response at one level of biological hierarchy is connected to other physiological responses.
-
-The unbiased nature of -omics (ex. genomics, epigenomics, transcriptomics, metabolomics, lipidomics) elucidates how organisms react to environmental change by interrogating mechanisms that contribute to observed phenotypes. We integrate -omics and physiology techniques to examine:
-
-1.  The environmental influence on molecular phenotype
-2.  Evolutionary adaptation-phenotypic plasticity tradeoffs
-3.  Reproduction and intergenerational plasticity.
-
-Our integrative approach allows for a holistic understanding of why species are “winners” or “losers” in future climate scenarios.
+With climate change rapidly impacting ecosystems, phenotypic plasticity that operates on timescales quicker than evolutionary adaptation is crucial for species persistence. We investigate marine invertebrate resilience to climate change by interrogating phenotypic plasticity. We want to know how and why plasticity is observed, and how a plastic response at one level of biological hierarchy is connected to other physiological responses. To do this, we integrate molecular biology (ex. genomics, epigenomics, transcriptomics, metabolomics, lipidomics) and physiological techniques to elucidate mechanisms that underlie our observations.
