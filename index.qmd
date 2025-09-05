@@ -6,6 +6,8 @@ format:
 editor: visual
 ---
 
+![](images/banner-images.jpg){fig-align="center" width="3000"}
+
 Welcome to the **Marine Molecular Ecophysiology Lab (MMEP Lab)** in the Biology Department at Santa Clara University!
 
 With climate change rapidly impacting ecosystems, phenotypic plasticity that operates on timescales quicker than evolutionary adaptation is crucial for species persistence. We investigate marine invertebrate resilience to climate change by interrogating phenotypic plasticity. We are interested in how and why plasticity is observed, and how a plastic response at one level of biological hierarchy is connected to other physiological responses.
