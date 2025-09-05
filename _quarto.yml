@@ -6,10 +6,12 @@ project:
     # - team.qmd # lab members
     # - lab-policies.qmd #code of conduct
     # - overview.qmd #research --> separate into sections
-    # - oyster-epigenetics.qmd
-    # - greencrab-temperature.qmd
+    # - env-on-phen.qmd
+    # - adaptation-plasticity.qmd
+    # - reproduction.qmd
     # - publications.qmd #teaching philosophy and courses taught
     # - lab-notebooks.qmd #online lab notebooks
+    # - philosophy.qmd #teaching philosophy and courses taught
     # - RIE2.qmd
   
 website:
@@ -32,9 +34,9 @@ website:
       - text: "research"
         menu:
           - overview.qmd #overview of research themes
-          - oyster-epigenetics.qmd
-          - greencrab-temperature.qmd
-          - publications.qmd
+          - env-on-phen.qmd
+          - adaptation-plasticity.qmd
+          - reproduction.qmd
           - lab-notebooks.qmd #online lab notebooks
       - text: "teaching"
         menu:
