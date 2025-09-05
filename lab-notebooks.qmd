@@ -1,0 +1,11 @@
+---
+title: "Lab Notebooks"
+editor: visual
+format: 
+  html:
+    toc: false
+    toc-depth: 1
+    toc-location: right
+    number-sections: false
+---
+
