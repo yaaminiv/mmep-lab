@@ -6,16 +6,10 @@ format:
 editor: visual
 ---
 
-![](images/protist-banner-yellow.png){fig-align="center" width="2000"}
-
 The Hu lab is located in the **Department of Oceanography** at **Texas A&M University** (College Station, TX). We explore the ecological significance of unicellular eukaryotes (microeukaryotes or protists) in marine ecosystems, especially in the deep-sea. Microorgansims fuel the critical biogeochemical processes that make the planet what it is - in turn, they can be bellweathers of environmental change. We use a range of meta'omics and lab experiments to understand what protists are where and what they are doing.
 
 # Hu lab
-::: column-margin
-![](images/Hu Lab Logo Final-01.png)
-:::
-The *interconnected microbial eukaryome* means I am interested in the relationship between microbial eukaryotes and their environment, and microbial eukaryotes and other organisms. Research typically starts with questions such as *Who is present?*, *What are they doing?*, and *What is their ecological role in marine environments?* 
+
+The *interconnected microbial eukaryome* means I am interested in the relationship between microbial eukaryotes and their environment, and microbial eukaryotes and other organisms. Research typically starts with questions such as *Who is present?*, *What are they doing?*, and *What is their ecological role in marine environments?*
 
 Protistan species make up the majority of the branches on the eukaryotic tree of life. Similar to their vast and complex morphological ( *e.g.*, skeletal structure, modes of mobility, and size), the nutritional strategies (or feeding methods) protists are capable of are diverse and complicated. The three core *trophic modes* include **phototrophy**, **heterotrophy**, and **mixotrophy**. These trophic strategies place protists at the center of marine food webs -- meaning, they mediate or facilitate central routes of energy and nutrient flux. Hence, protists play several key ecological roles at the base of marine food webs.
-
-![December 2024](images/labxmas_2024){fig-align="center" width="400" caption-align="center"}
