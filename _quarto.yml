@@ -31,6 +31,7 @@ website:
         menu:
           - team.qmd # people
           - lab-policies.qmd #code of conduct
+          - resources.qmd #misc important things
       - text: "research"
         menu:
           - overview.qmd #overview of research themes
