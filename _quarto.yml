@@ -4,14 +4,13 @@ project:
   render:
     - index.qmd # home page
     - team.qmd # lab members
-    - projects.qmd #research --> separate into sections
-    - deepsea-vents.qmd
-    - time-series.qmd
-    - data-science.qmd
-    - publications.qmd
-    - lab-policies.qmd
-#margin-header: |
- # ![](/images/logo-hu.png)
+    - lab-policies.qmd #code of conduct
+    - overview.qmd #research --> separate into sections
+    - oyster-epigenetics.qmd
+    - greencrab-temperature.qmd
+    - publications.qmd #teaching philosophy and courses taught
+    - lab-notebooks.qmd #online lab notebooks
+    - RIE2.qmd
   
 website:
   navbar:
@@ -21,24 +20,26 @@ website:
     search: true
     tools:
       - icon: github
-        href: https://github.com/shu251
-      - icon: instagram
-        href: https://www.instagram.com/microhukaryote/
+        href: https://github.com/yaaminiv
       - icon: share
-        href: https://scholar.google.com/citations?user=9CI91CMAAAAJ&hl=en     
+        href: https://scholar.google.com/citations?user=x9WA39wAAAAJ&hl=en&oi=sra    
     right:
       - index.qmd
       - text: "about"
         menu:
           - team.qmd # people
-          - lab-policies.qmd
+          - lab-policies.qmd #code of conduct
       - text: "research"
         menu:
-          - projects.qmd #overview of research themes
-          - deepsea-vents.qmd
-          - time-series.qmd
-          - data-science.qmd
+          - overview.qmd #overview of research themes
+          - oyster-epigenetics.qmd
+          - greencrab-temperature.qmd
           - publications.qmd
+          - lab-notebooks.qmd #online lab notebooks
+      - text: "teaching"
+        menu:
+          - philosophy.qmd #teaching philosophy and courses taught
+          - RIE2.qmd
     page-navigation: true
 
 format:
