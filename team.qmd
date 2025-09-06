@@ -19,10 +19,7 @@ knitr::include_graphics("images/Venkataraman_Headshot_Cropped.tif")
 
 ## **Assistant Professor of Biology**
 
-[yvenkataraman\@scu.edu](mailto:yvenkataraman@scu.edu)
-[ORCID](https://orcid.org/0000-0002-0364-1829)
-[Google Scholar](https://scholar.google.com/citations?user=x9WA39wAAAAJ&hl=en&oi=sra)
-[cv](products/Venkataraman_CV.pdf)\
+[yvenkataraman\@scu.edu](mailto:yvenkataraman@scu.edu) [ORCID](https://orcid.org/0000-0002-0364-1829) [Google Scholar](https://scholar.google.com/citations?user=x9WA39wAAAAJ&hl=en&oi=sra) [CV](products/Venkataraman_CV.pdf) [Lab notebook](yaaminiv.github.io)
 she/her
 
 I am a molecular ecophysiologist, meaning I not only delve into how organisms respond to changes in their environment, but also why they respond that way. We combine wet-lab experiments, molecular benchwork, and bioinformatic analysis to understand how climate change impacts marine invertebrates. I'm deeply committed to improving equity and inclusion in academia. I currently co-leading the Resources for Inclusive Evolution Education (RIE2) initiative, which seeks to improve undergraduate evolution education by creating a central repository that provides educational and science communication resources that address the exclusionary underpinnings of the field. Outside the lab, my favorite activities include being outside (hiking, camping, paddleboarding, beach swimming), cooking extravagant meals for no reason, and consuming copious amounts of media (let's talk books!).
@@ -31,7 +28,7 @@ I am a molecular ecophysiologist, meaning I not only delve into how organisms re
 
 # Join the lab!
 
-I am not recruiting any students during Fall 2025. If you are eligible to take upper-division courses and are interested in the marine biology, physiology, and/or molecular biology, please take Project Lab (BIOL 191) Winter 2026! If you cannot take BIOL 191, [email me]() to discuss potential student opportunities.
+I am not recruiting any students during Fall 2025. If you are eligible to take upper-division courses and are interested in the marine biology, physiology, and/or molecular biology, please take Project Lab (BIOL 191) Winter 2026! If you cannot take BIOL 191, [email me](mailto:yvenkataraman@scu.edu) to discuss potential student opportunities.
 
 There are several university fellowships for students who want to conduct research in the summer. If you'd like to do research in MMEP Lab this summer, please email Dr. Venkataraman by January 15, 2026.
 
