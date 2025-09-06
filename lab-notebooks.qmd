@@ -9,3 +9,21 @@ format:
     number-sections: false
 ---
 
+# Science becomes more equitable when information is accessible to all.
+
+**All members of the MMEP Lab are required to keep open-access lab notebooks online**. These lab notebooks act as resources for ourselves and others. We encourage the use of lab notebooks to document methodological processes, roadblocks, troubleshooting, half-baked ideas, and fresh results.
+
+## Notebooks
+
+-   Dr. Yaamini R. Venkataraman: [yaaminiv.github.io](yaaminiv.github.io)
+
+## Resources
+
+Below are some best practices about keeping a lab notebook and open science generally.
+
+- [Roberts Lab at University of Washington](https://robertslab.github.io/resources/Lab-Notebooks/)
+- [Columbia University: Good Laboratory Notebook Practices](https://research.columbia.edu/sites/default/files/content/RCT%20content/ReaDI%20Program/tutorial_LabNotebook_V9.pdf)
+- [Science: How to keep a lab notebook](https://www.science.org/content/article/how-keep-lab-notebook)
+- [NIH: Keeping an Electronic Lab Notebook](https://oir.nih.gov/system/files/media/file/2024-07/best_practices-keeping_eln-trainee_0.pdf)
+- [Center for Open Science](https://www.cos.io/open-science)
+- [UNESCO: Open science: Making sciecne more accessible, inclusive, and equitable for all](https://www.unesco.org/en/open-science)
