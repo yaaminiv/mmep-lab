@@ -64,3 +64,5 @@ Stay tuned!
 -   Manafzadeh A^§^, Navon D^§^, **Venkataraman YR**^§^, Millward JK, Khan F, Ashiru O (2024). DNA Genotype-phenotype associations: What are they and how do they relate to broader society? Resources for Inclusive Evolution Education, QUBES Educational Resources. <https://doi.org/10.25334/MWZF-D038>
 
 -   **Venkataraman YR**, Greiner-Ferris K, White SJ, Roberts SB (2024). DNA Methylation Assessment. MarineOmics. <https://marineomics.github.io/FUN_02_DNA_methylation.html>
+
+![](images/banner-images.jpg){fig-align="center" width="3000"}

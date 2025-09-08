@@ -1,0 +1,31 @@
+---
+title: "Research themes"
+format: html
+editor: visual
+---
+
+## What is "marine molecular ecophysiology?!"
+
+The MMEP Lab
+
+## Our research themes
+
+### Environmental influence on molecular phenotype
+
+::: {style="float:left"}
+```{r, echo=FALSE, out.width= "200px", out.extra='style="float:left; padding:5px"'}
+knitr::include_graphics("images/oyster.jpg")
+```
+:::
+
+### Evolutionary adaptation-phenotypic plasticity tradeoffs
+
+::: {style="float:right"}
+```{r, echo=FALSE, out.width= "200px", out.extra='style="float:left; padding:5px"'}
+knitr::include_graphics("images/green-crab.jpg")
+```
+:::
+
+### Reproduction and intergenerational plasticity
+
+![](images/banner-images.jpg){fig-align="center" width="3000"}

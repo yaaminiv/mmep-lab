@@ -1,0 +1,14 @@
+---
+title: "Lab handbook"
+format: 
+  html:
+    toc: true
+    toc-depth: 4
+    toc-location: left
+    page-layout: full
+editor: visual
+---
+
+*Lab handbook and code of conduct coming soon!*
+
+![](images/banner-images.jpg){fig-align="center" width="3000"}

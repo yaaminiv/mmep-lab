@@ -1,5 +1,5 @@
 ---
-title: "MMEP Lab"
+title: ""
 format: 
   html:
     toc: false

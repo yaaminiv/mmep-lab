@@ -4,17 +4,15 @@ project:
   render:
     - index.qmd # home page
     - team.qmd # lab members
-    # - lab-policies.qmd #code of conduct
-    # - overview.qmd #research --> separate into sections
+    - lab-policies.qmd #code of conduct
+    - overview.qmd #research --> separate into sections
     # - env-on-phen.qmd
     # - adaptation-plasticity.qmd
     # - reproduction.qmd
     - publications.qmd
-    # - philosophy.qmd #teaching philosophy and courses taught
-    # - RIE2.qmd
-    # - undergraduate-guide.qmd #guide for undergrads @ SCU and beyond
+    - philosophy.qmd #teaching philosophy and courses taught
+    - resources.qmd #misc important things
     - lab-notebooks.qmd #online lab notebooks
-    # - dei-resources.qmd #misc important things
   
 website:
   navbar:
@@ -36,19 +34,17 @@ website:
       - text: "Research"
         menu:
           - overview.qmd #overview of research themes
-          - env-on-phen.qmd
-          - adaptation-plasticity.qmd
-          - reproduction.qmd
+          # - env-on-phen.qmd
+          # - adaptation-plasticity.qmd
+          # - reproduction.qmd
           - publications.qmd
       - text: "Teaching"
         menu:
           - philosophy.qmd #teaching philosophy and courses taught
-          - RIE2.qmd
       - text: "Resources"
         menu:
-          - undergraduate-guide.qmd #guide for undergrads @ SCU and beyond
+          - resources.qmd #important things
           - lab-notebooks.qmd #online lab notebooks
-          - dei-resources.qmd #important things
     page-navigation: true
 
 format:
