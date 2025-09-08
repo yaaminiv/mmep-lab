@@ -6,7 +6,7 @@ format:
     toc-depth: 4
     toc-location: left
     page-layout: full
-editor: visual
+editor: source
 ---
 
 ::: {style="float:left"}
@@ -27,7 +27,7 @@ I am a molecular ecophysiologist, meaning I not only delve into how organisms re
 
 I am not recruiting any students during Fall 2025. If you are eligible to take upper-division courses and are interested in the marine biology, physiology, and/or molecular biology, please take Project Lab (BIOL 191) Winter 2026! If you cannot take BIOL 191, [email me](mailto:yvenkataraman@scu.edu) to discuss potential student opportunities.
 
-There are several university fellowships for students who want to conduct research in the summer. If you'd like to do research in MMEP Lab this summer, please email Dr. Venkataraman by January 15, 2026.
+There are several university fellowships for students who want to conduct research in the summer. **If you'd like to do research in MMEP Lab this summer, please email Dr. Venkataraman by January 15, 2026**.
 
 -   [Single Portal for Undergraduate Research (SPUR)](https://www.scu.edu/provost/research/student-funding-opportunities/scuspur/): Single application portal for several SCU summer research fellowships
 -   [REAL Program](https://www.scu.edu/real/): Stipends for College of Arts and Sciences student research, internships, or creative projects

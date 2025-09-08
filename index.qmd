@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Home"
 format: 
   html:
     toc: false
-editor: visual
+editor: source
 ---
 
 # Welcome to the **Marine Molecular Ecophysiology Lab (MMEP Lab)** in the Biology Department at Santa Clara University!

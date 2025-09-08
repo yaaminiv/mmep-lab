@@ -1,7 +1,12 @@
 ---
 title: "Research themes"
-format: html
-editor: visual
+format: 
+  html:
+    toc: true
+    toc-depth: 4
+    toc-location: left
+    page-layout: full
+editor: source
 ---
 
 ## What is "marine molecular ecophysiology?!"

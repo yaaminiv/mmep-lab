@@ -1,17 +1,16 @@
 /*-- scss:defaults --*/
 
-$theme: "sarah-custom" !default;
+$theme: "mmeplab-custom" !default;
 
 //
 // Color system
 //
 
-$white:    #F0FFFF !default; //minty: #fff white coloee
-$orange:   #e07a5f !default;
+$white:    #F0FFFF !default; //background page color
+$orange:   #4682B4 !default;
 $darkblue: #3d405b !default;
 $green:    #81b29a !default;
-$gold:     #f2cc8f !default;
-$black:    #000 !default;
+$gold:     #4682B4 !default; //color for TOC
 
 
 $indigo:  #6610f2 !default;
