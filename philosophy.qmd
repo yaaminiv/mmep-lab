@@ -20,7 +20,7 @@ My goal as a teacher and mentor is to build a student’s ability to think criti
 # Courses taught
 
 | **Quarter** | **Course** | **Description** |
-|------------------------|------------------------|------------------------|
+|-----------------|---------------------|-----------------------------------|
 | Fall 2025 | BIOL 1CL: Systems Lab | Students will model biological systems (e.g., organismal body plans, human diseases, endangered natural habitats) in order to predict how they will respond and adapt. Students will also apply the process of science to collect, analyze, and interpret data across biological scales and communicate with the greater scientific community. |
 | Winter 2026 | BIOL 191: Project Lab | Course-based Undergraduate Research Experience (CURE) focusing on the eco-physiology of European green crabs. Students will learn animal husbandry, conduct live animal experiments with green crabs, and process samples for molecular analysis. Students will also practice formal and informal science communication skills. |
 | Spring 2026 | BIOL 6: The Oceans | Examine the ocean environment from a physical, biological, ecological and evolutionary perspective. Our exploration of the marine environment will include an examination of human impacts on marine communities worldwide. The course is geared toward non-science majors and as such the learning goals of the course should be attainable to students from a wide variety of majors across the university. |
