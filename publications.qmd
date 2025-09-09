@@ -3,9 +3,9 @@ title: "Publications"
 editor: visual
 format: 
   html:
-    toc: false
+    toc: true
     toc-depth: 1
-    toc-location: right
+    toc-location: left
     number-sections: false
 ---
 
