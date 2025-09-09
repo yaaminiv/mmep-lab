@@ -1,6 +1,6 @@
 ---
 title: "General resources"
-editor: visual
+editor: source
 format: 
   html:
     toc: false
@@ -57,6 +57,7 @@ Various books ranging from environmental justice and climate solutions to eugeni
 -   Babel by RF Kuang: fiction, but captures how academia interacts with axes of power and influence. Lowkey Dr. Venkataraman's favorite book of all time.
 -   Fresh Banana Leaves by Jessica Hernandez, Ph.D
 -   We Will Be Jaguars by Nemonte Nenquimo
+- Our History Is The Future by Nick Estes
 -   Why Fish Don't Exist by Lulu Miller
 -   Superior: The Return of Race to Science by Angela Saini
 -   The New Jim Crow by Michelle Alexander
@@ -68,5 +69,7 @@ Various books ranging from environmental justice and climate solutions to eugeni
 -   What If We Get It Right? Visions of Climate Futures by Dr. Ayana Elizabeth Johnson
 -   Consumed by Aja Barber
 -   Lessons from Plants by Dr. Beronda Montgomery
+- The Disordered Cosmos by Chanda Prescod-Weinstein
+- Disability Visability by Alice Wong
 
 ![](images/banner-images.jpg){fig-align="center" width="3000"}
