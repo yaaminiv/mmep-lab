@@ -11,7 +11,17 @@ editor: source
 
 ## What is "marine molecular ecophysiology?!"
 
-The MMEP Lab
+Imagine someone comes up to you and tells you they can't drive their car. This could mean a lot of things! Perhaps they're out of gas, lost their keys...or their car can be on fire. All of these things end up in the same place: this person cannot drive their car! But understanding *why* they cannot drive is important context.
+
+At the MMEP Lab, we apply this contextual, or mechanistic, thinking to understanding how and why marine invertebrates (ex. oysters, green crabs) respond the way they do to climate related-stressors. ADD SOMETHING HERE ABOUT MOLECULES SCALING UP TO PHYS PHENOTYPES. 
+
+SLIDE FROM FACULTY TALK
+
+Specifically, we study:
+
+1.  The influence of the environment on molecular phenotype
+2.  Tradeoffs between evolutionary adaptation and phenotypic plasticity in response to environmental stress
+3.  Reproduction and intergenerational plasticity
 
 ## Our research themes
 
@@ -22,6 +32,14 @@ The MMEP Lab
 knitr::include_graphics("images/oyster.jpg")
 ```
 :::
+
+
+Since epigenetic mechanisms such as DNA methylation can regulate gene expression and whole-organism physiology across generations, I investigate methylation responses to environmental stressors. Before evaluating inheritance of environmentally-sensitive methylation patterns in offspring, I examined how environmental change modified the parental epigenome. I was the first to document changes to the oyster methylome in response to ocean acidification (OA) using acclimation experiments1-3. Altered methylation patterns were found in several genes commonly associated with oyster responses to OA1-3, suggesting that methylation is critical for shaping physiological responses to pH. I then examined the relationship between methylation and a common proxy for phenotypic plasticity, gene expression. I found that methylation maintains gene expression homeostasis in C. virginica reproductive tissues exposed to OA by reducing transcriptional noise4. Examining this molecular puzzle improves our understanding of how environmental conditions shape plasticity and physiological phenotype.
+	My research suggests methylation can contribute to beneficial and maladaptive plasticity across generations. Differential methylation of gonad development and stress response genes in female C. gigas gonad tissue2 was associated with maintenance of gonad maturation in stressful conditions5. However, offspring from females exposed to low pH had poorer survival in ambient pH conditions5. Exposure to OA yielded sex-specific gonad methylation patterns in adult C. virginica, with no difference in egg quality or larval development in OA conditions4. These results suggest that epigenetic maintenance of reproduction in adults can have varied consequences for offspring fitness3,4, which in turn can impact population stability in OA conditions.
+
+
+
+
 
 ### Evolutionary adaptation-phenotypic plasticity tradeoffs
 

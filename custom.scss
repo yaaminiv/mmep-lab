@@ -7,9 +7,9 @@ $theme: "mmeplab-custom" !default;
 //
 
 $white:    #F0FFFF !default; //background page color
-$orange:   #4682B4 !default;
-$darkblue: #3d405b !default;
-$green:    #81b29a !default;
+$orange:   #4682B4 !default; //?????
+$darkblue: #3d405b !default; //text color
+$green:    #C1CDCD !default; //color for dropdown highlight
 $gold:     #4682B4 !default; //color for TOC
 
 
@@ -17,7 +17,7 @@ $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
 $red:     #ff7851 !default;
-$yellow:  #ffce67 !default;
+$yellow:  #6610f2 !default;
 $teal:    #20c997 !default;
 $cyan:    #6cc3d5 !default;
 
@@ -72,7 +72,7 @@ $navbar-light-disabled-color:       rgba($green, .1) !default;
 // TOC
 $sidebar-bg:                        $gold !default;
 $sidebar-hl:                        $green !default;
-$toc-color:                         $green !default;
+$toc-color:                         $white !default;
 $toc-font-size:                     1rem !default;
 $toc-link-hover-color:              $gold !default;
 $toc-link-hover-bg:                 $gold !default;
