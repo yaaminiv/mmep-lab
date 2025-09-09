@@ -1,6 +1,6 @@
 ---
 title: "Lab notebooks"
-editor: visual
+editor: source
 format: 
   html:
     toc: false

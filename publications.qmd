@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-editor: visual
+editor: source
 format: 
   html:
     toc: true
@@ -27,7 +27,7 @@ Stay tuned!
 
 -   Aluru N, **Venkataraman YR**, Murray CS, DePascuale V. “Gene expression and DNA methylation changes in response to hypoxia in toxicant-adapted Atlantic killifish (*Fundulus heteroclitus*).” Biology Open. (2024). <https://doi.org/10.1242/bio.061801>
 
--   **Venkataraman YR**, Huffmyer AS, White SJ, Downey-Wall A, Ashey J, Becker DM, Bengtsson Z, Putnam HM, Strand E, Rodriguez-Casariego JA, Wanamaker SA, Lotterhos KE, Roberts SB. “DNA methylation correlates with transcriptional noise in response to elevated pCO2 in the eastern oyster (*Crassostrea virginica*).” Ecological Epigenetics. (2024). <https://doi.org/10.1093/eep/dvae018>
+-   **Venkataraman YR**, Huffmyer AS, White SJ, Downey-Wall A, Ashey J, Becker DM, Bengtsson Z, Putnam HM, Strand E, Rodriguez-Casariego JA, Wanamaker SA, Lotterhos KE, Roberts SB. “DNA methylation correlates with transcriptional noise in response to elevated pCO~2~ in the eastern oyster (*Crassostrea virginica*).” Ecological Epigenetics. (2024). <https://doi.org/10.1093/eep/dvae018>
 
 # 2023
 
@@ -64,5 +64,3 @@ Stay tuned!
 -   Manafzadeh A^§^, Navon D^§^, **Venkataraman YR**^§^, Millward JK, Khan F, Ashiru O (2024). DNA Genotype-phenotype associations: What are they and how do they relate to broader society? Resources for Inclusive Evolution Education, QUBES Educational Resources. <https://doi.org/10.25334/MWZF-D038>
 
 -   **Venkataraman YR**, Greiner-Ferris K, White SJ, Roberts SB (2024). DNA Methylation Assessment. MarineOmics. <https://marineomics.github.io/FUN_02_DNA_methylation.html>
-
-![](images/banner-images.jpg){fig-align="center" width="3000"}

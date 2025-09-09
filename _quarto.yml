@@ -4,8 +4,8 @@ project:
   render:
     - index.qmd # home page
     - team.qmd # lab members
-    - lab-policies.qmd #code of conduct
-    - overview.qmd #research --> separate into sections
+    - lab-policies.qmd #code of conduct --> create before winter quarter
+    - overview.qmd #research --> separate into sections once there are more substantive things
     # - env-on-phen.qmd
     # - adaptation-plasticity.qmd
     # - reproduction.qmd
@@ -46,6 +46,8 @@ website:
           - resources.qmd #important things
           - lab-notebooks.qmd #online lab notebooks
     page-navigation: true
+  body-footer: |
+      ![*Photos by Yaamini R. Venkataraman*](images/banner-images.jpg){fig-align="center"}
 
 format:
   html:

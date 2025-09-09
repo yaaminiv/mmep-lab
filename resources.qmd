@@ -3,9 +3,9 @@ title: "General resources"
 editor: source
 format: 
   html:
-    toc: false
-    toc-depth: 1
-    toc-location: right
+    toc: true
+    toc-depth: 4
+    toc-location: left
     number-sections: false
 ---
 
@@ -20,6 +20,12 @@ Please [email Dr. Venkataraman](mailto:yvenkataraman@scu.edu) if there's somethi
 -   [SCU Office of Accessible Education](https://www.scu.edu/oae/)
 -   [Single Portal for Undergraduate Research (SPUR)](https://www.scu.edu/provost/research/student-funding-opportunities/scuspur/): Single application portal for several SCU summer research fellowships
 -   [REAL Program](https://www.scu.edu/real/): Stipends for College of Arts and Sciences student research, internships, or creative projects
+- [The Multicultural Center](https://www.mccscu.com)
+- [Dean of Students Office](https://www.scu.edu/dso/)
+- [Basic Needs Program](https://www.scu.edu/dso/basicneeds/): Bronco Food Pantry, Housing and Utility Assistance, Technology Support, Transportation Support and Student Life Fund links, among other things
+- [The Wellness Center](https://www.scu.edu/wellness/)
+- [Counseling and Psychological Services](https://www.scu.edu/bewell/caps/)
+- [Office of Equal Opportunity and Title IX](https://www.scu.edu/title-ix/)
 
 ## General resources
 
@@ -71,5 +77,3 @@ Various books ranging from environmental justice and climate solutions to eugeni
 -   Lessons from Plants by Dr. Beronda Montgomery
 - The Disordered Cosmos by Chanda Prescod-Weinstein
 - Disability Visability by Alice Wong
-
-![](images/banner-images.jpg){fig-align="center" width="3000"}

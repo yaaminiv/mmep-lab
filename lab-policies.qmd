@@ -6,9 +6,7 @@ format:
     toc-depth: 4
     toc-location: left
     page-layout: full
-editor: visual
+editor: source
 ---
 
 *Lab handbook and code of conduct coming soon!*
-
-![](images/banner-images.jpg){fig-align="center" width="3000"}
