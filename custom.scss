@@ -12,12 +12,11 @@ $darkblue: #3d405b !default; //text color
 $green:    #C1CDCD !default; //color for dropdown highlight
 $gold:     #4682B4 !default; //color for TOC
 
-
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
 $red:     #ff7851 !default;
-$yellow:  #6610f2 !default;
+$yellow:  #ffce67 !default;
 $teal:    #20c997 !default;
 $cyan:    #6cc3d5 !default;
 
@@ -58,12 +57,13 @@ $table-bg-scale:              0 !default;
 $dropdown-link-hover-color:         $darkblue !default;
 $dropdown-link-hover-bg:            $green !default;
 $dropdown-bg:                       $white !default;
+
 // Navbar
-$navvar-bg:                         $green !default;
+$navbar-bg:                         $green !default;
 $navbar-font-size:                  2rem !default;
-$navbar-dark-color:                 rgba($darkblue, .4) !default;
+$navbar-dark-color:                 rgba($gold, .4) !default;
 $navbar-dark-hover-color:           $green !default;
-$navbar-light-color:                rgba($green, .3) !default;
+$navbar-light-color:                rgba($gold, .3) !default;
 $navbar-light-hover-color:          $green !default;
 $navbar-light-active-color:         $green !default;
 $navbar-light-disabled-color:       rgba($green, .1) !default;
@@ -157,7 +157,7 @@ legend {
   }
 
   a:hover {
-    color: $white;
+    color: $secondary;
     text-decoration: none;
   }
 }
