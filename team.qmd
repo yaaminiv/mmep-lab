@@ -26,7 +26,7 @@ knitr::include_graphics("images/Venkataraman_Headshot_Cropped.tif")
 I am a molecular ecophysiologist, meaning I not only delve into how organisms respond to changes in their environment, but also why they respond that way. We combine wet-lab experiments, molecular benchwork, and bioinformatic analysis to understand how climate change impacts marine invertebrates. I'm deeply committed to improving equity and inclusion in academia. I co-lead the Resources for Inclusive Evolution Education (RIE2) initiative, which seeks to improve undergraduate evolution education by creating a central repository that provides educational and science communication resources that address the exclusionary underpinnings of the field. Outside the lab, my favorite activities include being outside (hiking, camping, paddleboarding, beach swimming), cooking extravagant meals for no reason, and consuming copious amounts of media (let's talk books!).
 
 ::: {style="float:right"}
-```{r, echo=FALSE, out.width= "350px", out.extra='style="float:left; padding-right:15px; padding-top:15px"}
+```{r, echo=FALSE, out.width= "350px", out.extra='style="float:left; padding-right:15px; padding-top:15px"'}
 knitr::include_graphics("images/Bruno_headshot.jpg")
 ```
 :::
