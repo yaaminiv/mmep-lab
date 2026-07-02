@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>General resources</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -35,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f7db68bb8103ae7ad1946426271eee30.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-33bdca71aa447a153f11f1c73e5902aa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -234,7 +237,8 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://docs.google.com/document/d/14F9l_oUP43x4HRKykG8rgkW2Ts4oF-w5mrDWxmUk4sI/edit?tab=t.0">Biology Summer Internships outside of SCU</a></li>
 <li><a href="https://faculty.washington.edu/sr320/undergraduate_guide.html">Undergraduate guide from Roberts Lab at University of Washington</a>: Comprehensive resource on conducting undergraduate research, from contacting faculty and determining what kinds of opportunities are right for you, to asking for letters of recommendation. Links are UW-specific, but there is good general advice.</li>
 <li><a href="https://www.inclusiveconservationlab.com/resources">Resources page of the Inclusive Conservation Lab at UBC</a>: Note that this lab is based in Canada, some several resources are Canada or UBC-specific</li>
-<li><a href="https://sites.google.com/view/apply-academic-positions/graduate-student?authuser=0">How to apply for graduate student positions</a>: compiled by Dr.&nbsp;Lily Khadempour</li>
+<li><a href="https://sites.google.com/view/apply-academic-positions/graduate-student?authuser=0">How to apply for graduate student positions</a>: compiled by Dr.&nbsp;Lily Khadempour, useful for those interested in pursuing graduate school</li>
+<li><a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.70047?ref=scienceforeveryone.science">Fifteen Questions to Ask Before Attending Graduate School</a>: A good resources from the Ecological Society of America</li>
 </ul>
 </section>
 <section id="equity-diversity-inclusion-and-belonging" class="level2">
@@ -267,9 +271,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="books" class="level4">
 <h4 class="anchored" data-anchor-id="books">Books</h4>
-<p>Various books ranging from environmental justice and climate solutions to eugenics and dark academia. If you’re at SCU, stop by to borrow one of these books from Dr.&nbsp;Venkataraman’s office!</p>
+<p>Various books ranging from environmental justice and climate solutions to eugenics and dark academia.</p>
 <ul>
-<li>Babel by RF Kuang: fiction, but captures how academia interacts with axes of power and influence. Lowkey Dr.&nbsp;Venkataraman’s favorite book of all time.</li>
 <li>Fresh Banana Leaves by Jessica Hernandez, Ph.D</li>
 <li>We Will Be Jaguars by Nemonte Nenquimo</li>
 <li>Our History Is The Future by Nick Estes</li>
@@ -286,6 +289,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Lessons from Plants by Dr.&nbsp;Beronda Montgomery</li>
 <li>The Disordered Cosmos by Chanda Prescod-Weinstein</li>
 <li>Disability Visability by Alice Wong</li>
+<li>Race after Technology by Ruha Benjamin</li>
+<li>Imagination: A Manifesto by Ruha Benjamin</li>
+<li>Growing Papaya Trees by Jessica Hernandez, Ph.D</li>
+<li>Read This When Things Fall Apart by Kelly Hayes</li>
+<li>Reconsidering Reparations by Olúfẹ́mi O. Táíwò</li>
+<li>Elite Capture by Olúfẹ́mi O. Táíwò</li>
 </ul>
 
 
@@ -351,13 +360,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

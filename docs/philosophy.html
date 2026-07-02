@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Teaching</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -35,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f7db68bb8103ae7ad1946426271eee30.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-33bdca71aa447a153f11f1c73e5902aa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -203,11 +206,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="courses-taught" class="level1">
 <h1>Courses taught</h1>
+<p>An updated list of course offerings can be found at the <a href="https://www.scu.edu/appdata/pub/bulletin/undergraduate/2026-27/chapter-3-college-of-arts-and-sciences/biology.html">SCU Undergraduate Bulletin</a>.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 23%">
+<col style="width: 24%">
 <col style="width: 28%">
-<col style="width: 47%">
+<col style="width: 46%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -218,18 +222,23 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Fall 2025</td>
-<td>BIOL 1CL: Systems Lab</td>
-<td>Students will model biological systems (e.g., organismal body plans, human diseases, endangered natural habitats) in order to predict how they will respond and adapt. Students will also apply the process of science to collect, analyze, and interpret data across biological scales and communicate with the greater scientific community.</td>
+<td>Fall</td>
+<td>BIOL 1C: Systems L&amp;L</td>
+<td>All biological phenomena are complex networks whose components comprise molecules, cells, organs, organisms, and ecosystems. The stability of these networks is maintained by important feedback and feedforward regulations but alterations affecting one of the components could affect the entire network. In this course, students will model biological systems (e.g., cellular signaling pathways, organismal body plans, human diseases, endangered natural habitats) in order to predict how they will respond and adapt to changes in components and environmental conditions. Students will also apply the process of science to collect, analyze, and interpret data across biological scales and communicate with the greater scientific community.</td>
 </tr>
 <tr class="even">
-<td>Winter 2026</td>
+<td>Winter 2026, Spring 2027</td>
 <td>BIOL 191: Project Lab</td>
 <td>Course-based Undergraduate Research Experience (CURE) focusing on the eco-physiology of European green crabs. Students will learn animal husbandry, conduct live animal experiments with green crabs, and process samples for molecular analysis. Students will also practice formal and informal science communication skills.</td>
 </tr>
 <tr class="odd">
+<td>Winter 2027</td>
+<td>BIOL 120: Animal Physiology L&amp;L</td>
+<td>This course examines contrasting strategies used by different animals to deal with variations in temperature, food, oxygen, and water, and highlights the diversity of physiological adaptations in major animal groups, especially those living in “extreme” habitats.</td>
+</tr>
+<tr class="even">
 <td>Spring 2026</td>
-<td>BIOL 6: The Oceans</td>
+<td>BIOL 6: The Oceans L&amp;L</td>
 <td>Examine the ocean environment from a physical, biological, ecological and evolutionary perspective. Our exploration of the marine environment will include an examination of human impacts on marine communities worldwide. The course is geared toward non-science majors and as such the learning goals of the course should be attainable to students from a wide variety of majors across the university.</td>
 </tr>
 </tbody>
@@ -295,13 +304,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

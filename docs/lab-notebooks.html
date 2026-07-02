@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Lab notebooks</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -35,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f7db68bb8103ae7ad1946426271eee30.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-33bdca71aa447a153f11f1c73e5902aa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -181,11 +184,24 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="science-becomes-more-equitable-when-information-is-accessible-to-all." class="level1">
 <h1>Science becomes more equitable when information is accessible to all.</h1>
-<p><strong>All members of the MMEP Lab are required to keep open-access lab notebooks online</strong>. These lab notebooks act as resources for ourselves and others. We encourage the use of lab notebooks to document methodological processes, roadblocks, troubleshooting, half-baked ideas, and fresh results.</p>
-<section id="notebooks" class="level2">
-<h2 class="anchored" data-anchor-id="notebooks">Notebooks</h2>
+<p><strong>All members of the MMEP Lab are required to keep electronic lab notebooks</strong>. These lab notebooks act as resources for ourselves and others. We encourage the use of lab notebooks to document methodological processes, roadblocks, troubleshooting, half-baked ideas, and fresh results.</p>
+<p><em>Note: Due to SCU restrictions on sharing Google Docs, electronic lab notebooks hosted on Google Docs are not open access by default. If interested in viewing a lab notebook hosted on Google Docs, please submit a request for access on the document itself</em></p>
+<section id="notebooks-of-current-lab-members" class="level2">
+<h2 class="anchored" data-anchor-id="notebooks-of-current-lab-members">Notebooks of current lab members</h2>
 <ul>
 <li>Dr.&nbsp;Yaamini R. Venkataraman: <a href="yaaminiv.github.io">yaaminiv.github.io</a></li>
+<li><a href="https://docs.google.com/document/d/156p6lpch1gTSDPrkZHLP7HjBWkRur8-CPiNjss4SXTI/edit?tab=t.tv39a61tolyh#heading=h.35smbuej444m">Mikaela Bruno</a></li>
+<li><a href="https://docs.google.com/document/d/1J422olLn7dHSSQc1bTKbC9LEUlelEH18MK-CrD1juT4/edit?tab=t.mqbehiak27x1">Sasha Darknell-Brown</a></li>
+<li><a href="https://docs.google.com/document/d/1KMPvsBltbcZBUgqUax1JXUHqDX8W9q23A0sm0T9ZmUA/edit?pli=1&amp;tab=t.wipg68ddo7vc#heading=h.35smbuej444m">Clara Gray</a></li>
+<li><a href="https://docs.google.com/document/d/1wN_iivSvqCWL5rO3pwCrz-ZIHvlRv5piEsKXmv2jw5Y/edit?tab=t.tv39a61tolyh#heading=h.35smbuej444m">Jasmine Fong</a></li>
+<li><a href="https://docs.google.com/document/d/1K6tJxHl-_tQnDi9zIDhY1sxgv70URRak4c_z2gCGD40/edit?pli=1&amp;tab=t.2iv11di2nhdb#heading=h.npbng7wbtxob">Emma Johansen</a></li>
+<li><a href="https://docs.google.com/document/d/1cjhsooxLtzIYtettOJaJI_uJA0fzRZ34HZ8z5A2nfPQ/edit?tab=t.tv39a61tolyh#heading=h.35smbuej444m">Noemi Torres</a></li>
+</ul>
+</section>
+<section id="alumni-notebooks" class="level2">
+<h2 class="anchored" data-anchor-id="alumni-notebooks">Alumni notebooks</h2>
+<ul>
+<li><a href="https://docs.google.com/document/d/1-MuZuypVnc0nUEtyiGRPUvGrs4foERNqExVAmtFQPqs/edit?tab=t.tv39a61tolyh#heading=h.35smbuej444m">Ashray Bangalore</a></li>
 </ul>
 </section>
 <section id="resources" class="level2">
@@ -261,13 +277,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
