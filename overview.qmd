@@ -50,6 +50,7 @@ While plasticity is critical for understanding responses to climate stressors, i
 *Relevant publications*:
 
 -   **Venkataraman YR**, Kelso JC^†^, Payne C^†^, Freitas HL^†^, Jasmine Kohler^†^, Tepolt CK. “Plasticity, not genetics, shapes individual responses to thermal stress in non-native populations of the European green crab (*Carcinus maenas*).” Integrative and Comparative Biology. (2025). <https://doi.org/10.1093/icb/icaf131>
+- **Venkataraman YR**, Shapiro SK, Newbrey M^†^, Tepolt CK. “Metabolomic and lipidomic shifts underpin physiological acclimation to thermal stress in the European green crab (*Carcinus maenas*).” bioRXiv. (2026). https://doi.org/10.64898/2026.05.08.723818
 
 ### Reproduction and intergenerational plasticity
 
