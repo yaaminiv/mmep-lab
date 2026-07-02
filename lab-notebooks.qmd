@@ -11,11 +11,23 @@ format:
 
 # Science becomes more equitable when information is accessible to all.
 
-**All members of the MMEP Lab are required to keep open-access lab notebooks online**. These lab notebooks act as resources for ourselves and others. We encourage the use of lab notebooks to document methodological processes, roadblocks, troubleshooting, half-baked ideas, and fresh results.
+**All members of the MMEP Lab are required to keep electronic lab notebooks**. These lab notebooks act as resources for ourselves and others. We encourage the use of lab notebooks to document methodological processes, roadblocks, troubleshooting, half-baked ideas, and fresh results.
 
-## Notebooks
+*Note: Due to SCU restrictions on sharing Google Docs, electronic lab notebooks hosted on Google Docs are not open access by default. If interested in viewing a lab notebook hosted on Google Docs, please submit a request for access on the document itself*
+
+## Notebooks of current lab members
 
 -   Dr. Yaamini R. Venkataraman: [yaaminiv.github.io](yaaminiv.github.io)
+-   [Mikaela Bruno](https://docs.google.com/document/d/156p6lpch1gTSDPrkZHLP7HjBWkRur8-CPiNjss4SXTI/edit?tab=t.tv39a61tolyh#heading=h.35smbuej444m)
+-   [Sasha Darknell-Brown](https://docs.google.com/document/d/1J422olLn7dHSSQc1bTKbC9LEUlelEH18MK-CrD1juT4/edit?tab=t.mqbehiak27x1)
+-   [Clara Gray](https://docs.google.com/document/d/1KMPvsBltbcZBUgqUax1JXUHqDX8W9q23A0sm0T9ZmUA/edit?pli=1&tab=t.wipg68ddo7vc#heading=h.35smbuej444m)
+-   [Jasmine Fong](https://docs.google.com/document/d/1wN_iivSvqCWL5rO3pwCrz-ZIHvlRv5piEsKXmv2jw5Y/edit?tab=t.tv39a61tolyh#heading=h.35smbuej444m)
+-   [Emma Johansen](https://docs.google.com/document/d/1K6tJxHl-_tQnDi9zIDhY1sxgv70URRak4c_z2gCGD40/edit?pli=1&tab=t.2iv11di2nhdb#heading=h.npbng7wbtxob)
+-   [Noemi Torres](https://docs.google.com/document/d/1cjhsooxLtzIYtettOJaJI_uJA0fzRZ34HZ8z5A2nfPQ/edit?tab=t.tv39a61tolyh#heading=h.35smbuej444m)
+
+## Alumni notebooks
+
+-   [Ashray Bangalore](https://docs.google.com/document/d/1-MuZuypVnc0nUEtyiGRPUvGrs4foERNqExVAmtFQPqs/edit?tab=t.tv39a61tolyh#heading=h.35smbuej444m)
 
 ## Resources
 
