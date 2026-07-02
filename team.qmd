@@ -40,7 +40,7 @@ knitr::include_graphics("images/Bruno_headshot.jpg")
 I am a new graduate of Santa Clara University where I majored in biology. I’m interested in ecophysiology, particularly how marine organisms respond to environmental stressors like climate change and marine heatwaves. I’m especially curious about the physiological and molecular mechanisms behind stress and recovery in species like crabs. Outside of academics, I love playing volleyball, working with animals, and spending time outdoors. A fun fact about me is that I’m planning to pursue vet school in the future!
 
 ::: {style="float:left"}
-```{r, echo=FALSE, out.width= "350px", out.extra='style="float:left; padding-right:15px; padding-top:15px"}
+```{r, echo=FALSE, out.width= "350px", out.extra='style="float:left; padding-right:15px; padding-top:15px"'}
 knitr::include_graphics("images/Darknell-Brown_headshot.jpeg")
 ```
 :::
@@ -52,7 +52,7 @@ knitr::include_graphics("images/Darknell-Brown_headshot.jpeg")
 I am a second-year transfer student at Santa Clara University. I am majoring in Biology and minoring in Biotechnology. I am interested in experimental research such as animal physiology, molecular work, and anything else that can go on in the lab. I am still figuring out what it is I would like to focus on, so I want to gain as much experience in different areas of biology as I can. My hobbies include, walking my dogs, drawing, reading, and doing puzzles.
 
 ::: {style="float:right"}
-```{r, echo=FALSE, out.width= "350px", out.extra='style="float:left; padding-right:15px; padding-top:15px"}
+```{r, echo=FALSE, out.width= "350px", out.extra='style="float:left; padding-right:15px; padding-top:15px"'}
 knitr::include_graphics("images/Gray_headshot.jpg")
 ```
 :::
@@ -72,7 +72,7 @@ I am a second-year student double majoring in Biology and Environmental Science.
 LEAP Program funding recipient Summer 2026
 
 ::: {style="float:right"}
-```{r, echo=FALSE, out.width= "350px", out.extra='style="float:left; padding-right:15px; padding-top:15px"}
+```{r, echo=FALSE, out.width= "350px", out.extra='style="float:left; padding-right:15px; padding-top:15px"'}
 knitr::include_graphics("images/Johansen_headshot.JPG")
 ```
 :::
@@ -84,7 +84,7 @@ knitr::include_graphics("images/Johansen_headshot.JPG")
 I am a third-year biology major with minors in medical and health humanities and biotechnology. I am interested in the effects of multi-stressor experiments on green crab ecophysiology and how the impacts of these stressors can be applied to climate change and invasive species management. Outside of the lab, I enjoy hiking, swimming, volunteering with SCU EMS, thrifting, and spending time with my cats.
 
 ::: {style="float:right"}
-```{r, echo=FALSE, out.width= "350px", out.extra='style="float:left; padding-right:15px; padding-top:15px"}
+```{r, echo=FALSE, out.width= "350px", out.extra='style="float:left; padding-right:15px; padding-top:15px"'}
 knitr::include_graphics("images/Torres_headshot.jpg")
 ```
 :::
