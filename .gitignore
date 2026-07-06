@@ -6,3 +6,4 @@ images/.DS_Store
 /.quarto/
 
 **/*.quarto_ipynb
+.Rhistory
