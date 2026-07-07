@@ -83,11 +83,19 @@ I am a second-year student double majoring in Biology and Environmental Science.
 
 ::: {style="display: flow-root; margin-bottom: 10px;"}
 
+::: {style="float:left"}
+```{r, echo=FALSE, out.width= "350px", out.extra='style="float:left; padding-right:15px; padding-top:15px"'}
+knitr::include_graphics("images/Fong_headshot.jpg")
+```
+:::
+
 ## Jasmine Fong
 
-[Lab notebook](https://docs.google.com/document/d/1wN_iivSvqCWL5rO3pwCrz-ZIHvlRv5piEsKXmv2jw5Y/edit?tab=t.tv39a61tolyh#heading=h.35smbuej444m)
+[Lab notebook](https://docs.google.com/document/d/1wN_iivSvqCWL5rO3pwCrz-ZIHvlRv5piEsKXmv2jw5Y/edit?tab=t.tv39a61tolyh#heading=h.35smbuej444m) she/they
 
 LEAP Program funding recipient Summer 2026
+
+I am a second-year Biochemistry major at Santa Clara University. I am interested in research involving genetics and physiology exploring life from the organismal to the molecular level. At the moment, I am focusing on the molecular side of research working with DNA and assays to assess metabolism. Outside of academics, I love exploring new restaurants, baking, painting, and especially watching musicals.
 
 :::
 
